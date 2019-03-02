@@ -38,11 +38,15 @@
                 <value>classpath:/mapper/*.xml</value>
             </list>
         </property>
+        <property name="configLocation" value="mybatis.xml"/>
+
+
     </bean>
 
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <property name="basePackage" value="com.wlh.ssm.dao"/>
         <property name="sqlSessionFactoryBeanName" value="sessionFactory"/>
+
     </bean>
 
 

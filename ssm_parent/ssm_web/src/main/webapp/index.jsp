@@ -1,26 +1,16 @@
-
+<%--
+  Created by IntelliJ IDEA.
+  User: wlh
+  Date: 2019/3/3
+  Time: 0:53
+  To change this template use File | Settings | File Templates.
+--%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<c:set var="ctx" value="${pageContext.request.contextPath}"/>
-
 <html>
-<title>首页</title>
-<style>
-    div {
-        margin-bottom: 10px;
-        padding: 5px;
-    }
-</style>
+<head>
+    <title>Title</title>
+</head>
 <body>
-<div>
-    <fieldset>
-        <legend>测试-----01------requestMapping添加类和方法上</legend>
-        <a href="${ctx}/user/findAll">点我测试</a>
-    </fieldset>
-    <fieldset>
-        <legend>测试-----01------requestMapping添加类和方法上</legend>
-        <a href="${ctx}/product/findAll">product测试</a>
-    </fieldset>
-
-</div>
-
+你好啊
+</body>
+</html>
