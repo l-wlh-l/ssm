@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ssm_parent/domain/domain.iml" filepath="$PROJECT_DIR$/ssm_parent/domain/domain.iml" />
       <module fileurl="file://$PROJECT_DIR$/ssm_parent/ssm_dao/ssm_dao.iml" filepath="$PROJECT_DIR$/ssm_parent/ssm_dao/ssm_dao.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ssm_maven/ssm_maven.iml" filepath="$PROJECT_DIR$/ssm_maven/ssm_maven.iml" />
       <module fileurl="file://$PROJECT_DIR$/ssm_parent/ssm_parent.iml" filepath="$PROJECT_DIR$/ssm_parent/ssm_parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/ssm_parent/ssm_service/ssm_service.iml" filepath="$PROJECT_DIR$/ssm_parent/ssm_service/ssm_service.iml" />
       <module fileurl="file://$PROJECT_DIR$/ssm_parent/ssm_web/ssm_web.iml" filepath="$PROJECT_DIR$/ssm_parent/ssm_web/ssm_web.iml" />

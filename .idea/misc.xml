@@ -7,7 +7,6 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/ssm_maven/pom.xml" />
         <option value="$PROJECT_DIR$/ssm_parent/pom.xml" />
       </list>
     </option>

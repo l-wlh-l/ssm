@@ -8,7 +8,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="domain" />
         <module name="ssm_dao" />
-        <module name="ssm_maven" />
         <module name="ssm_service" />
         <module name="ssm_web" />
         <module name="utils" />
