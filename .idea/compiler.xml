@@ -17,7 +17,7 @@
       <module name="domain" target="1.8" />
       <module name="ssm_dao" target="1.8" />
       <module name="ssm_maven" target="1.8" />
-      <module name="ssm_parent" target="1.8" />
+      <module name="ssm_parent" target="1.5" />
       <module name="ssm_service" target="1.8" />
       <module name="ssm_web" target="1.8" />
       <module name="utils" target="1.8" />
