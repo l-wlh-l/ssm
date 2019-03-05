@@ -55,5 +55,4 @@ public class ProductController {
         productService.updateProduct(product);
         return "redirect:/product/findAll";
     }
-
 }
