@@ -2,10 +2,7 @@ package com.wlh.ssm.dao;
 
 import com.wlh.ssm.domain.Order;
 import com.wlh.ssm.domain.Product;
-import org.apache.ibatis.annotations.One;
-import org.apache.ibatis.annotations.Result;
-import org.apache.ibatis.annotations.Results;
-import org.apache.ibatis.annotations.Select;
+import org.apache.ibatis.annotations.*;
 import org.apache.ibatis.mapping.FetchType;
 import org.springframework.stereotype.Repository;
 
@@ -25,5 +22,21 @@ public interface OrderDao {
             )
     })
     List<Order> findAll();
+    /*
 
+    private Long id;
+    private String orderNum;
+    private String orderTime;
+    private int peopleCount;
+    private String orderDesc;
+    private int payType;
+    private int orderStatus;
+
+    private Product product;
+
+    */
+
+    @Insert("insert into orders(orderNum,orderTime,peopleCount,orderDesc,payType,orderStatus,productId) " +
+            "values(#{orderNum},#{orderTime},#{peopleCount},#{orderDesc},#{payType},#{orderStatus},#{product.id})")
+    void save(Order order);
 }

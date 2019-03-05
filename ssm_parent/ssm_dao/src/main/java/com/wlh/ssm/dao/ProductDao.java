@@ -27,18 +27,6 @@ public interface ProductDao {
     @Select("select * from product where id=#{id}")
     Product findById(Long id);
 
-    /*
-    *
-        private Long id;
-        private String productNum;
-        private String productName;
-        private String cityName;
-        private String departureTime;
-        private Double productPrice;
-        private String productDesc;
-        private Integer productStatus;
-
-    */
     @Insert("insert into product (productNum,productName,cityName,departureTime,productPrice,productDesc,productStatus)" +
             " values(#{productNum},#{productName},#{cityName},#{departureTime},#{productPrice},#{productDesc},#{productStatus})")
     void save(Product product);

@@ -7,4 +7,5 @@ import java.util.List;
 public interface OrderService {
     List<Order> findAll();
 
+    void save(Order order);
 }

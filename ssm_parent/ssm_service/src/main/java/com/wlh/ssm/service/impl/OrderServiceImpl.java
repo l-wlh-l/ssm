@@ -26,4 +26,9 @@ public class OrderServiceImpl implements OrderService {
     public List<Order> findAll() {
         return orderDao.findAll();
     }
+
+    @Override
+    public void save(Order order) {
+        orderDao.save(order);
+    }
 }
