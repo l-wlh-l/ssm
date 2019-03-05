@@ -1,4 +1,4 @@
-package com.wlh.ssm.controller.productController;
+package com.wlh.ssm.controller;
 
 import com.wlh.ssm.domain.Product;
 import com.wlh.ssm.service.ProductService;
