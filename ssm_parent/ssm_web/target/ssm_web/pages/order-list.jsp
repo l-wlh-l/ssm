@@ -1,5 +1,7 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt"  prefix="fmt"%>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -150,11 +152,10 @@
 
 									<th class="sorting">订单号</th>
 									<th class="sorting">路线名称</th>
-									<th class="sorting">购买会员</th>
+									<th class="sorting">旅行人数</th>
 									<th class="sorting">出发日期</th>
 									<th class="sorting">申请日期</th>
 									<th class="sorting">状态</th>
-									<th class="sorting">审核</th>
 									<th class="sorting">支付</th>
 									<th class="sorting">操作员</th>
 
@@ -162,18 +163,20 @@
 								</tr>
 							</thead>
 							<tbody>
+							<c:forEach items="${orders}" var="order">
+
+
 								<tr>
 									<td><input name="ids" type="checkbox"></td>
-									<td>1</td>
+									<td>${order.id}</td>
 
-									<td>L1608111173</td>
-									<td>温泉之旅·江西婺源+三清山3日跟团游(3钻)</td>
-									<td>Iamzhao</td>
-									<td>2016-09-06</td>
-									<td>2016-09-03</td>
-									<td>已处理</td>
-									<td>已审</td>
-									<td>已付</td>
+									<td>${order.orderNum}</td>
+									<td>${order.product.productName}</td>
+									<td>${order.peopleCount}</td>
+									<td>${order.product.departureTime}</td>
+									<td>${order.orderTime}</td>
+									<td>${order.orderStatus==1?'已处理':'未处理'}</td>
+									<td>${order.payType==1?'已付':'未付'}</td>
 									<td>admin</td>
 
 									<td class="text-center">
@@ -183,121 +186,7 @@
 											onclick='location.href="${pageContext.request.contextPath}/pages/order-show.jsp"'>查看</button>
 									</td>
 								</tr>
-
-
-								<tr>
-									<td><input name="ids" type="checkbox"></td>
-									<td>2</td>
-
-									<td>L1608111173</td>
-									<td>温泉之旅·江西婺源+三清山3日跟团游(3钻)</td>
-									<td>Iamzhao</td>
-									<td>2016-09-06</td>
-									<td>2016-09-03</td>
-									<td>已处理</td>
-									<td>已审</td>
-									<td>已付</td>
-									<td>admin</td>
-
-									<td class="text-center">
-										<button type="button" class="btn bg-olive btn-xs"
-											onclick='location.href="all-order-manage-edit.html"'>订单</button>
-										<button type="button" class="btn bg-olive btn-xs"
-											onclick='location.href="all-order-manage-edit.html"'>查看</button>
-									</td>
-								</tr>
-
-
-								<tr>
-									<td><input name="ids" type="checkbox"></td>
-									<td>3</td>
-
-									<td>L1608111173</td>
-									<td>温泉之旅·江西婺源+三清山3日跟团游(3钻)</td>
-									<td>Iamzhao</td>
-									<td>2016-09-06</td>
-									<td>2016-09-03</td>
-									<td>已处理</td>
-									<td>已审</td>
-									<td>已付</td>
-									<td>admin</td>
-
-									<td class="text-center">
-										<button type="button" class="btn bg-olive btn-xs"
-											onclick='location.href="all-order-manage-edit.html"'>订单</button>
-										<button type="button" class="btn bg-olive btn-xs"
-											onclick='location.href="all-order-manage-edit.html"'>查看</button>
-									</td>
-								</tr>
-
-
-								<tr>
-									<td><input name="ids" type="checkbox"></td>
-									<td>4</td>
-
-									<td>L1608111173</td>
-									<td>温泉之旅·江西婺源+三清山3日跟团游(3钻)</td>
-									<td>Iamzhao</td>
-									<td>2016-09-06</td>
-									<td>2016-09-03</td>
-									<td>已处理</td>
-									<td>已审</td>
-									<td>已付</td>
-									<td>admin</td>
-
-									<td class="text-center">
-										<button type="button" class="btn bg-olive btn-xs"
-											onclick='location.href="all-order-manage-edit.html"'>订单</button>
-										<button type="button" class="btn bg-olive btn-xs"
-											onclick='location.href="all-order-manage-edit.html"'>查看</button>
-									</td>
-								</tr>
-
-
-								<tr>
-									<td><input name="ids" type="checkbox"></td>
-									<td>5</td>
-
-									<td>L1608111173</td>
-									<td>温泉之旅·江西婺源+三清山3日跟团游(3钻)</td>
-									<td>Iamzhao</td>
-									<td>2016-09-06</td>
-									<td>2016-09-03</td>
-									<td>已处理</td>
-									<td>已审</td>
-									<td>已付</td>
-									<td>admin</td>
-
-									<td class="text-center">
-										<button type="button" class="btn bg-olive btn-xs"
-											onclick='location.href="all-order-manage-edit.html"'>订单</button>
-										<button type="button" class="btn bg-olive btn-xs"
-											onclick='location.href="all-order-manage-edit.html"'>查看</button>
-									</td>
-								</tr>
-
-
-								<tr>
-									<td><input name="ids" type="checkbox"></td>
-									<td>6</td>
-
-									<td>L1608111173</td>
-									<td>温泉之旅·江西婺源+三清山3日跟团游(3钻)</td>
-									<td>Iamzhao</td>
-									<td>2016-09-06</td>
-									<td>2016-09-03</td>
-									<td>已处理</td>
-									<td>已审</td>
-									<td>已付</td>
-									<td>admin</td>
-
-									<td class="text-center">
-										<button type="button" class="btn bg-olive btn-xs"
-											onclick='location.href="all-order-manage-edit.html"'>订单</button>
-										<button type="button" class="btn bg-olive btn-xs"
-											onclick='location.href="all-order-manage-edit.html"'>查看</button>
-									</td>
-								</tr>
+							</c:forEach>
 
 							</tbody>
 
