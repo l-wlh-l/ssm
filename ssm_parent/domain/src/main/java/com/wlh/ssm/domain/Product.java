@@ -1,12 +1,14 @@
 package com.wlh.ssm.domain;
 
+import java.io.Serializable;
+
 /**
  * @ClassName Product
  * @Description TODO
  * @Author wlh
  * @Date 2019/3/1 21:13
  **/
-public class Product {
+public class Product implements Serializable{
 
     private Long id;
     private String productNum;
