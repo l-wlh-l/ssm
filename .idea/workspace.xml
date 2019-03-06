@@ -6,27 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="fdf47238-c895-4655-95af-6006bb256312" name="Default" comment="分页查询后端代码">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+    <list default="true" readonly="true" id="fdf47238-c895-4655-95af-6006bb256312" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_dao/target/classes/com/wlh/ssm/dao/ProductDao.class" afterPath="$PROJECT_DIR$/ssm_parent/ssm_dao/target/classes/com/wlh/ssm/dao/ProductDao.class" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/ProductService.java" afterPath="$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/ProductService.java" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/impl/ProductServiceImpl.java" afterPath="$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/impl/ProductServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_service/target/classes/com/wlh/ssm/service/ProductService.class" afterPath="$PROJECT_DIR$/ssm_parent/ssm_service/target/classes/com/wlh/ssm/service/ProductService.class" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_service/target/classes/com/wlh/ssm/service/impl/ProductServiceImpl.class" afterPath="$PROJECT_DIR$/ssm_parent/ssm_service/target/classes/com/wlh/ssm/service/impl/ProductServiceImpl.class" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/java/com/wlh/ssm/controller/ProductController.java" afterPath="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/java/com/wlh/ssm/controller/ProductController.java" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/resources/applicationContext_web.xml" afterPath="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/resources/applicationContext_web.xml" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/product-list.jsp" afterPath="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/product-list.jsp" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/target/classes/applicationContext_web.xml" afterPath="$PROJECT_DIR$/ssm_parent/ssm_web/target/classes/applicationContext_web.xml" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/target/classes/com/wlh/ssm/controller/ProductController.class" afterPath="$PROJECT_DIR$/ssm_parent/ssm_web/target/classes/com/wlh/ssm/controller/ProductController.class" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/WEB-INF/classes/applicationContext_web.xml" afterPath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/WEB-INF/classes/applicationContext_web.xml" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/WEB-INF/classes/com/wlh/ssm/controller/ProductController.class" afterPath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/WEB-INF/classes/com/wlh/ssm/controller/ProductController.class" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/WEB-INF/lib/domain-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/WEB-INF/lib/domain-1.0-SNAPSHOT.jar" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/WEB-INF/lib/hamcrest-core-1.3.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/WEB-INF/lib/junit-4.13-beta-1.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/WEB-INF/lib/ssm_dao-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/WEB-INF/lib/ssm_dao-1.0-SNAPSHOT.jar" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/WEB-INF/lib/ssm_service-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/WEB-INF/lib/ssm_service-1.0-SNAPSHOT.jar" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/pages/aside.jsp" afterPath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/pages/aside.jsp" />
       <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/pages/product-list.jsp" afterPath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/pages/product-list.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -65,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/java/com/wlh/ssm/controller/ProductController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="399">
-              <caret line="62" column="64" lean-forward="true" selection-start-line="62" selection-start-column="64" selection-end-line="62" selection-end-column="64" />
+              <caret line="62" column="64" lean-forward="false" selection-start-line="62" selection-start-column="64" selection-end-line="62" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1164#1165#0" expanded="true" />
@@ -117,8 +98,8 @@
       <file leaf-file-name="product-list.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/product-list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1188">
-              <caret line="94" column="22" lean-forward="true" selection-start-line="94" selection-start-column="22" selection-end-line="94" selection-end-column="22" />
+            <state relative-caret-position="242">
+              <caret line="252" column="32" lean-forward="false" selection-start-line="252" selection-start-column="32" selection-end-line="252" selection-end-column="32" />
               <folding>
                 <element signature="e#10813#10819#0#HTML" expanded="true" />
               </folding>
@@ -794,7 +775,7 @@
       <workItem from="1551599581870" duration="7544000" />
       <workItem from="1551698437583" duration="23543000" />
       <workItem from="1551785916562" duration="17891000" />
-      <workItem from="1551860958761" duration="2597000" />
+      <workItem from="1551860958761" duration="2651000" />
     </task>
     <task id="LOCAL-00001">
       <created>1551519147840</created>
@@ -901,7 +882,14 @@
       <option name="project" value="LOCAL" />
       <updated>1551845274890</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="分页查询前端页面">
+      <created>1551864527219</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1551864527219</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -937,7 +925,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123625000" />
+    <option name="totallyTimeSpent" value="123679000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -950,6 +938,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -973,7 +962,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44296116" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288835" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288835" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2937365" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2937365" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288835" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1040,7 +1029,8 @@
     <MESSAGE value="增加Order订单，以及调整结构" />
     <MESSAGE value="订单新增操作" />
     <MESSAGE value="分页查询后端代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="分页查询后端代码" />
+    <MESSAGE value="分页查询前端页面" />
+    <option name="LAST_COMMIT_MESSAGE" value="分页查询前端页面" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1593,7 +1583,7 @@
     <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/java/com/wlh/ssm/controller/ProductController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
-          <caret line="62" column="64" lean-forward="true" selection-start-line="62" selection-start-column="64" selection-end-line="62" selection-end-column="64" />
+          <caret line="62" column="64" lean-forward="false" selection-start-line="62" selection-start-column="64" selection-end-line="62" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1164#1165#0" expanded="true" />
@@ -1615,7 +1605,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1625,15 +1615,15 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/product-list.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1188">
-          <caret line="94" column="22" lean-forward="true" selection-start-line="94" selection-start-column="22" selection-end-line="94" selection-end-column="22" />
+        <state relative-caret-position="242">
+          <caret line="252" column="32" lean-forward="false" selection-start-line="252" selection-start-column="32" selection-end-line="252" selection-end-column="32" />
           <folding>
             <element signature="e#10813#10819#0#HTML" expanded="true" />
           </folding>
