@@ -69,11 +69,11 @@
 	<div class="wrapper">
 
 		<!-- 页面头部 -->
-		<jsp:include page="header.jsp"></jsp:include>
+		<jsp:include page="header.jsp"/>
 		<!-- 页面头部 /-->
 
 		<!-- 导航侧栏 -->
-		<jsp:include page="aside.jsp"></jsp:include>
+		<jsp:include page="aside.jsp"/>
 		<!-- 导航侧栏 /-->
 
 		<!-- 内容区域 -->
@@ -241,72 +241,41 @@
 					<!-- 数据表格 /-->
 
 				</div>
-				<!-- /.box-body -->
-
-				<!-- .box-footer
-					<div class="box-footer">
-					<div class="pull-left">
-						<div class="form-group form-inline">
-							总共2 页，共14 条数据。 每页 <select class="form-control">
-								<option>10</option>
-								<option>15</option>
-								<option>20</option>
-								<option>50</option>
-								<option>80</option>
-							</select> 条
-						</div>
-					</div>
-
-					<div class="box-tools pull-right">
-						<ul class="pagination">
-							<li><a href="#" aria-label="Previous">首页</a></li>
-							<li><a href="#">上一页</a></li>
-							<li><a href="#">1</a></li>
-							<li><a href="#">2</a></li>
-							<li><a href="#">3</a></li>
-							<li><a href="#">4</a></li>
-							<li><a href="#">5</a></li>
-							<li><a href="#">下一页</a></li>
-							<li><a href="#" aria-label="Next">尾页</a></li>
-						</ul>
-					</div>
-
-				</div>
-				-->
+				<script type="text/javascript" src="${pageContext.request.contextPath}/plugins/jQuery/jquery-2.2.3.min.js"></script>
 				<div class="box-footer">
 					<div class="pull-left">
 						<div class="form-group form-inline">
 							总共${pageBean.totalPage} 页，共${pageBean.totalCount} 条数据。
 							每页 <select class="form-control" id="pageSize" onchange="gotoPage('1')">
-								<option value="5">5</option>
-								<option value="10">10</option>
-								<option value="15">15</option>
-								<option value="20">50</option>
-							</select> 条
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+						</select> 条
 						</div>
 					</div>
 
 					<div class="box-tools pull-right">
 						<ul class="pagination">
 							<li><a href="javascript:gotoPage('1')" aria-label="Previous">首页</a></li>
-							<li><a href="javascript:gotoPage('${pageBean.pageNum-1}')">上一页</a></li>
+							<li><a href="javascript:gotoPage('${pageBean.pageNumber-1}')">上一页</a></li>
 							<c:forEach begin="1" end="${pageBean.totalPage}" var="page">
-							<li><a href="javascript:gotoPage('${page}')">${page}</a></li>
+								<li><a href="javascript:gotoPage('${page}')">${page}</a></li>
 
 							</c:forEach>
 
-							<li><a href="javascript:gotoPage('${pageBean.pageNum+1}')">下一页</a></li>
+							<li><a href="javascript:gotoPage('${pageBean.pageNumber+1}')">下一页</a></li>
 							<li><a href="javascript:gotoPage('${pageBean.totalPage}')" aria-label="Next">尾页</a></li>
 						</ul>
 					</div>
 					<script>
                         //js功能实现
-                        function gotoPage(pageNum){
+                        function gotoPage(pageNumber){
                             var pageSize = $("#pageSize option:selected").val();
                             //判断页码的有效性
-                            if(pageNum>=1&&pageNum<=${pageBean.totalPage}){
-                                location.href = "${pageContext.request.contextPath}/productController/findByPage?" +
-                                    "pageNum="+pageNum+"&pageSize="+pageSize;
+                            if(pageNumber>=1&&pageNumber<=${pageBean.totalPage}){
+                                location.href = "${pageContext.request.contextPath}/product/findByPage?" +
+                                    "pageNumber="+pageNumber+"&pageSize="+pageSize;
                             }
                         }
                         $(function(){

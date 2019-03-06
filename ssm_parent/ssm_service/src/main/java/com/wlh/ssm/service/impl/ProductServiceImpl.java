@@ -52,17 +52,17 @@ public class ProductServiceImpl implements ProductService {
     }
 
     @Override
-    public PageBean<Product> findByPage(Integer pageNum, Integer pageSize) {
+    public PageBean<Product> findByPage(Integer pageNumber, Integer pageSize) {
         PageBean<Product> pageBean = new PageBean<>();
         pageBean.setPageSize(pageSize);
-        pageBean.setPageNumber(pageNum);
+        pageBean.setPageNumber(pageNumber);
         Long totalCount = productDao.findTotal();
 
-        int index = (pageNum-1)*pageSize;
+        int index = (pageNumber-1)*pageSize;
         List<Product> pageList= productDao.findPageList(index,pageSize);
         pageBean.setTotalCount(totalCount);
         pageBean.setPageList(pageList);
-        int totalPage = (int) Math.ceil(totalCount/pageSize);
+        int totalPage = (int) Math.ceil(1.0*totalCount/pageSize);
         pageBean.setTotalPage(totalPage);
         return pageBean;
     }

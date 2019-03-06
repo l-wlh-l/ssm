@@ -59,10 +59,10 @@ public class ProductController {
     }
 
     @RequestMapping("findByPage")
-    public String findByPage(@RequestParam(value = "pageNum",defaultValue = "1") Integer pageNum,
-                             @RequestParam(value = "pageSize",defaultValue = "5") Integer pageSize,Model model){
+    public String findByPage(@RequestParam(defaultValue = "1") Integer pageNumber,
+                             @RequestParam(defaultValue = "2") Integer pageSize,Model model){
 
-        PageBean<Product> productList = productService.findByPage(pageNum,pageSize);
+        PageBean<Product> productList = productService.findByPage(pageNumber,pageSize);
 
         model.addAttribute("pageBean",productList);
         System.out.println(productList);

@@ -16,5 +16,5 @@ public interface ProductService {
 
     void updateProduct(Product product);
 
-    PageBean<Product> findByPage(Integer pageNum, Integer pageSize);
+    PageBean<Product> findByPage(Integer pageNumber, Integer pageSize);
 }
