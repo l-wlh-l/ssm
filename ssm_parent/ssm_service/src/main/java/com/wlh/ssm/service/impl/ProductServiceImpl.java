@@ -1,6 +1,7 @@
 package com.wlh.ssm.service.impl;
 
 import com.wlh.ssm.dao.ProductDao;
+import com.wlh.ssm.domain.PageBean;
 import com.wlh.ssm.domain.Product;
 import com.wlh.ssm.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -48,5 +49,21 @@ public class ProductServiceImpl implements ProductService {
     @Override
     public void updateProduct(Product product) {
         productDao.updateProduct(product);
+    }
+
+    @Override
+    public PageBean<Product> findByPage(Integer pageNum, Integer pageSize) {
+        PageBean<Product> pageBean = new PageBean<>();
+        pageBean.setPageSize(pageSize);
+        pageBean.setPageNumber(pageNum);
+        Long totalCount = productDao.findTotal();
+
+        int index = (pageNum-1)*pageSize;
+        List<Product> pageList= productDao.findPageList(index,pageSize);
+        pageBean.setTotalCount(totalCount);
+        pageBean.setPageList(pageList);
+        int totalPage = (int) Math.ceil(totalCount/pageSize);
+        pageBean.setTotalPage(totalPage);
+        return pageBean;
     }
 }

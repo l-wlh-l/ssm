@@ -1,5 +1,6 @@
 package com.wlh.ssm.controller;
 
+import com.wlh.ssm.domain.PageBean;
 import com.wlh.ssm.domain.Product;
 import com.wlh.ssm.service.ProductService;
 
@@ -7,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 
 /**
@@ -22,7 +24,7 @@ public class ProductController {
     @Autowired
     private ProductService productService;
 
-    @RequestMapping("/findAll")
+    @RequestMapping("findAll")
     public String findAll(Model model){
         //产品结果集
         model.addAttribute("products",productService.findAll());
@@ -30,7 +32,7 @@ public class ProductController {
         return "product-list";
     }
 
-    @RequestMapping("/editUI")
+    @RequestMapping("editUI")
     public String editUI(Model model, Long id){
         Product product = productService.findById(id);
         model.addAttribute("product",product);
@@ -54,5 +56,16 @@ public class ProductController {
     public String updateProduct(Product product){
         productService.updateProduct(product);
         return "redirect:/product/findAll";
+    }
+
+    @RequestMapping("findByPage")
+    public String findByPage(@RequestParam(value = "pageNum",defaultValue = "1") Integer pageNum,
+                             @RequestParam(value = "pageSize",defaultValue = "5") Integer pageSize,Model model){
+
+        PageBean<Product> productList = productService.findByPage(pageNum,pageSize);
+
+        model.addAttribute("pageBean",productList);
+        System.out.println(productList);
+        return "product-list";
     }
 }

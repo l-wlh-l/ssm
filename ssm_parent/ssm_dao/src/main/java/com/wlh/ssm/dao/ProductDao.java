@@ -41,4 +41,9 @@ public interface ProductDao {
             "where id = #{id}")
     void updateProduct(Product product);
 
+    @Select("select count(1) from product")
+    Long findTotal();
+
+    @Select("select * from product limit #{param1},#{param2}")
+    List<Product> findPageList(Integer index, Integer pageSize);
 }

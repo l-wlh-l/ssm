@@ -174,7 +174,7 @@
 								</tr>
 							</thead>
 							<tbody>
-								<c:forEach items="${products}" var="product">
+								<c:forEach items="${pageBean.pageList}" var="product">
 									<tr>
 										<td><input name="ids" type="checkbox" value="${product.id}"></td>
 										<td>${product.id}</td>
@@ -243,7 +243,7 @@
 				</div>
 				<!-- /.box-body -->
 
-				<!-- .box-footer-->
+				<!-- .box-footer
 					<div class="box-footer">
 					<div class="pull-left">
 						<div class="form-group form-inline">
@@ -272,7 +272,7 @@
 					</div>
 
 				</div>
-				<!--
+				-->
 				<div class="box-footer">
 					<div class="pull-left">
 						<div class="form-group form-inline">
@@ -313,7 +313,7 @@
                             $("#pageSize option[value='${pageBean.pageSize}']").prop("selected",true);
                         })
 					</script>
-				</div> -->
+				</div>
 				<!-- /.box-footer-->
 
 			</div>

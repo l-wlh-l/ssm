@@ -6,14 +6,25 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="fdf47238-c895-4655-95af-6006bb256312" name="Default" comment="增加Order订单，以及调整结构">
-      <change beforePath="" afterPath="$PROJECT_DIR$/ssm_parent/ssm_dao/src/main/java/com/wlh/ssm/dao/OrderDao.java" />
+    <list default="true" readonly="true" id="fdf47238-c895-4655-95af-6006bb256312" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/ssm_parent/domain/src/main/java/com/wlh/ssm/domain/PageBean.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/OrderService.java" afterPath="$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/OrderService.java" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/impl/impl/OrderServiceImpl.java" afterPath="$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/impl/OrderServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_dao/src/main/java/com/wlh/ssm/dao/ProductDao.java" afterPath="$PROJECT_DIR$/ssm_parent/ssm_dao/src/main/java/com/wlh/ssm/dao/ProductDao.java" />
+      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_dao/target/classes/com/wlh/ssm/dao/OrderDao.class" afterPath="$PROJECT_DIR$/ssm_parent/ssm_dao/target/classes/com/wlh/ssm/dao/OrderDao.class" />
+      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/ProductService.java" afterPath="$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/ProductService.java" />
+      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/impl/ProductServiceImpl.java" afterPath="$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/impl/ProductServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_service/target/classes/com/wlh/ssm/service/OrderService.class" afterPath="$PROJECT_DIR$/ssm_parent/ssm_service/target/classes/com/wlh/ssm/service/OrderService.class" />
+      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_service/target/classes/com/wlh/ssm/service/impl/OrderServiceImpl.class" afterPath="$PROJECT_DIR$/ssm_parent/ssm_service/target/classes/com/wlh/ssm/service/impl/OrderServiceImpl.class" />
       <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/java/com/wlh/ssm/controller/OrderController.java" afterPath="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/java/com/wlh/ssm/controller/OrderController.java" />
+      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/java/com/wlh/ssm/controller/ProductController.java" afterPath="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/java/com/wlh/ssm/controller/ProductController.java" />
       <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/aside.jsp" afterPath="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/aside.jsp" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/order-list.jsp" afterPath="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/order-list.jsp" />
+      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/product-list.jsp" afterPath="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/product-list.jsp" />
+      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/target/classes/com/wlh/ssm/controller/OrderController.class" afterPath="$PROJECT_DIR$/ssm_parent/ssm_web/target/classes/com/wlh/ssm/controller/OrderController.class" />
+      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/WEB-INF/classes/com/wlh/ssm/controller/OrderController.class" afterPath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/WEB-INF/classes/com/wlh/ssm/controller/OrderController.class" />
+      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/WEB-INF/lib/ssm_dao-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/WEB-INF/lib/ssm_dao-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/WEB-INF/lib/ssm_service-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/WEB-INF/lib/ssm_service-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/pages/order-add.jsp" afterPath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/pages/order-add.jsp" />
+      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/pages/order-list.jsp" afterPath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/pages/order-list.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/ssm_maven/target/" />
@@ -47,66 +58,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="order-list.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/order-list.jsp">
+      <file leaf-file-name="Product.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssm_parent/domain/src/main/java/com/wlh/ssm/domain/Product.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="165" column="52" lean-forward="false" selection-start-line="165" selection-start-column="52" selection-end-line="165" selection-end-column="52" />
+            <state relative-caret-position="-1074">
+              <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OrderDao.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_dao/src/main/java/com/wlh/ssm/dao/OrderDao.java">
+      <file leaf-file-name="ProductServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/impl/ProductServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="474">
-              <caret line="22" column="76" lean-forward="false" selection-start-line="22" selection-start-column="76" selection-end-line="22" selection-end-column="76" />
+            <state relative-caret-position="487">
+              <caret line="61" column="50" lean-forward="true" selection-start-line="61" selection-start-column="50" selection-end-line="61" selection-end-column="50" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#672#673#0" expanded="true" />
+                <element signature="e#715#716#0" expanded="true" />
+                <element signature="e#769#770#0" expanded="true" />
+                <element signature="e#815#816#0" expanded="true" />
+                <element signature="e#870#871#0" expanded="true" />
+                <element signature="e#910#911#0" expanded="true" />
+                <element signature="e#1122#1123#0" expanded="true" />
+                <element signature="e#1171#1172#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Order.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssm_parent/domain/src/main/java/com/wlh/ssm/domain/Order.java">
+      <file leaf-file-name="ProductController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/java/com/wlh/ssm/controller/ProductController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+            <state relative-caret-position="510">
+              <caret line="67" column="40" lean-forward="true" selection-start-line="67" selection-start-column="40" selection-end-line="67" selection-end-column="40" />
               <folding>
-                <element signature="e#388#389#0" expanded="true" />
-                <element signature="e#413#414#0" expanded="true" />
-                <element signature="e#447#448#0" expanded="true" />
-                <element signature="e#475#476#0" expanded="true" />
-                <element signature="e#510#511#0" expanded="true" />
-                <element signature="e#541#542#0" expanded="true" />
-                <element signature="e#589#590#0" expanded="true" />
-                <element signature="e#629#630#0" expanded="true" />
-                <element signature="e#665#666#0" expanded="true" />
-                <element signature="e#697#698#0" expanded="true" />
-                <element signature="e#747#748#0" expanded="true" />
-                <element signature="e#789#790#0" expanded="true" />
-                <element signature="e#824#825#0" expanded="true" />
-                <element signature="e#858#859#0" expanded="true" />
-                <element signature="e#909#910#0" expanded="true" />
-                <element signature="e#955#956#0" expanded="true" />
-                <element signature="e#991#992#0" expanded="true" />
-                <element signature="e#1023#1024#0" expanded="true" />
-                <element signature="e#1073#1074#0" expanded="true" />
-                <element signature="e#1115#1116#0" expanded="true" />
-                <element signature="e#1146#1147#0" expanded="true" />
-                <element signature="e#1176#1177#0" expanded="true" />
-                <element signature="e#1219#1220#0" expanded="true" />
-                <element signature="e#1257#1258#0" expanded="true" />
-                <element signature="e#1292#1293#0" expanded="true" />
-                <element signature="e#1326#1327#0" expanded="true" />
-                <element signature="e#1377#1378#0" expanded="true" />
-                <element signature="e#1423#1424#0" expanded="true" />
-                <element signature="e#1458#1459#0" expanded="true" />
-                <element signature="e#1488#1489#0" expanded="true" />
-                <element signature="e#1535#1536#0" expanded="true" />
-                <element signature="e#1573#1574#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1164#1165#0" expanded="true" />
+                <element signature="e#1214#1215#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -115,21 +104,80 @@
       <file leaf-file-name="product-list.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/product-list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="65" />
+            <state relative-caret-position="-2039">
+              <caret line="315" column="22" lean-forward="false" selection-start-line="315" selection-start-column="22" selection-end-line="315" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OrderController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/java/com/wlh/ssm/controller/OrderController.java">
+      <file leaf-file-name="PageBean.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssm_parent/domain/src/main/java/com/wlh/ssm/domain/PageBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="562">
-              <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+            <state relative-caret-position="399">
+              <caret line="58" column="18" lean-forward="false" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#357#358#0" expanded="true" />
+                <element signature="e#390#391#0" expanded="true" />
+                <element signature="e#440#441#0" expanded="true" />
+                <element signature="e#484#485#0" expanded="true" />
+                <element signature="e#522#523#0" expanded="true" />
+                <element signature="e#555#556#0" expanded="true" />
+                <element signature="e#608#609#0" expanded="true" />
+                <element signature="e#652#653#0" expanded="true" />
+                <element signature="e#688#689#0" expanded="true" />
+                <element signature="e#719#720#0" expanded="true" />
+                <element signature="e#768#769#0" expanded="true" />
+                <element signature="e#808#809#0" expanded="true" />
+                <element signature="e#845#846#0" expanded="true" />
+                <element signature="e#877#878#0" expanded="true" />
+                <element signature="e#928#929#0" expanded="true" />
+                <element signature="e#970#971#0" expanded="true" />
+                <element signature="e#1006#1007#0" expanded="true" />
+                <element signature="e#1037#1038#0" expanded="true" />
+                <element signature="e#1086#1087#0" expanded="true" />
+                <element signature="e#1126#1127#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/main.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3366">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/ProductService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="18" column="68" lean-forward="false" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="aside.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/aside.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="64" column="84" lean-forward="false" selection-start-line="64" selection-start-column="84" selection-end-line="64" selection-end-column="84" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="applicationContext_web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/resources/applicationContext_web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="512">
+              <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -137,8 +185,8 @@
       <file leaf-file-name="ProductDao.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_dao/src/main/java/com/wlh/ssm/dao/ProductDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="945">
-              <caret line="55" column="1" lean-forward="false" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
+            <state relative-caret-position="532">
+              <caret line="47" column="44" lean-forward="false" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -154,8 +202,8 @@
         <option value="Mapper.xml" />
         <option value="Jsp File" />
         <option value="spring-beans.schema" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -178,8 +226,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/WEB-INF/pages/user.jsp" />
-        <option value="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/WEB-INF/pages/user/user.jsp" />
         <option value="$PROJECT_DIR$/ssm_parent/ssm_web/pom.xml" />
         <option value="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/java/com/wlh/ssm/controller/UserController.java" />
         <option value="$PROJECT_DIR$/ssm_parent/ssm_service/pom.xml" />
@@ -215,20 +261,22 @@
         <option value="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/resources/applicationContext_web.xml" />
         <option value="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/product-add.jsp" />
         <option value="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/product-update.jsp" />
-        <option value="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/product-list.jsp" />
-        <option value="$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/ProductService.java" />
-        <option value="$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/impl/ProductServiceImpl.java" />
-        <option value="$PROJECT_DIR$/ssm_parent/ssm_dao/src/main/java/com/wlh/ssm/dao/ProductDao.java" />
         <option value="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/java/com/wlh/ssm/controller/productController/ProductController.java" />
         <option value="$PROJECT_DIR$/ssm_parent/domain/src/main/java/com/wlh/ssm/domain/Order.java" />
         <option value="$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/impl/impl/OrderServiceImpl.java" />
-        <option value="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/java/com/wlh/ssm/controller/ProductController.java" />
-        <option value="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/aside.jsp" />
-        <option value="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/java/com/wlh/ssm/controller/OrderController.java" />
         <option value="$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/OrderService.java" />
         <option value="$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/impl/OrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/order-add.jsp" />
         <option value="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/order-list.jsp" />
         <option value="$PROJECT_DIR$/ssm_parent/ssm_dao/src/main/java/com/wlh/ssm/dao/OrderDao.java" />
+        <option value="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/java/com/wlh/ssm/controller/OrderController.java" />
+        <option value="$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/ProductService.java" />
+        <option value="$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/impl/ProductServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ssm_parent/ssm_dao/src/main/java/com/wlh/ssm/dao/ProductDao.java" />
+        <option value="$PROJECT_DIR$/ssm_parent/domain/src/main/java/com/wlh/ssm/domain/PageBean.java" />
+        <option value="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/product-list.jsp" />
+        <option value="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/aside.jsp" />
+        <option value="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/java/com/wlh/ssm/controller/ProductController.java" />
       </list>
     </option>
   </component>
@@ -487,6 +535,14 @@
               <item name="ssm_web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -733,7 +789,7 @@
       <workItem from="1551529385073" duration="12546000" />
       <workItem from="1551599581870" duration="7544000" />
       <workItem from="1551698437583" duration="23543000" />
-      <workItem from="1551785916562" duration="1690000" />
+      <workItem from="1551785916562" duration="12315000" />
     </task>
     <task id="LOCAL-00001">
       <created>1551519147840</created>
@@ -826,7 +882,14 @@
       <option name="project" value="LOCAL" />
       <updated>1551771154038</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="订单新增操作">
+      <created>1551790397849</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1551790397849</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -862,7 +925,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104827000" />
+    <option name="totallyTimeSpent" value="115452000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -880,7 +943,7 @@
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329849" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288835" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3763499" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -899,7 +962,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44296116" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288835" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2888769" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2888769" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -964,14 +1027,15 @@
     <MESSAGE value="删除无用文件" />
     <MESSAGE value="Projuct的增删改查" />
     <MESSAGE value="增加Order订单，以及调整结构" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加Order订单，以及调整结构" />
+    <MESSAGE value="订单新增操作" />
+    <option name="LAST_COMMIT_MESSAGE" value="订单新增操作" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="18" />
+      <option name="time" value="19" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -980,12 +1044,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/img/user4-128x128(1).jpg" />
-    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/img/user5-128x128.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/img/user4-128x128.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1001,6 +1059,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="263">
           <caret line="282" column="12" lean-forward="false" selection-start-line="282" selection-start-column="12" selection-end-line="282" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1018,6 +1077,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1033,13 +1093,6 @@
         <state relative-caret-position="374">
           <caret line="17" column="27" lean-forward="false" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/main.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-942">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1311,13 +1364,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/resources/db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_dao/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -1326,18 +1372,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/resources/applicationContext_web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="44" column="11" lean-forward="true" selection-start-line="44" selection-start-column="11" selection-end-line="44" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/product-add.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="716">
           <caret line="131" column="59" lean-forward="false" selection-start-line="131" selection-start-column="59" selection-end-line="131" selection-end-column="59" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1345,6 +1384,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1352,13 +1392,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1574">
           <caret line="144" column="76" lean-forward="false" selection-start-line="144" selection-start-column="76" selection-end-line="144" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/ProductService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -1371,152 +1404,223 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_parent/domain/src/main/java/com/wlh/ssm/domain/Product.java">
+    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/order-list.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        <state relative-caret-position="154">
+          <caret line="111" column="115" lean-forward="false" selection-start-line="111" selection-start-column="115" selection-end-line="111" selection-end-column="115" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/java/com/wlh/ssm/controller/ProductController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="56" column="5" lean-forward="false" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1069#1070#0" expanded="true" />
-            <element signature="e#1119#1120#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/OrderService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/impl/ProductServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="861">
-          <caret line="49" column="26" lean-forward="false" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
-          <folding>
-            <element signature="e#636#637#0" expanded="true" />
-            <element signature="e#679#680#0" expanded="true" />
-            <element signature="e#733#734#0" expanded="true" />
-            <element signature="e#779#780#0" expanded="true" />
-            <element signature="e#834#835#0" expanded="true" />
-            <element signature="e#874#875#0" expanded="true" />
-            <element signature="e#1086#1087#0" expanded="true" />
-            <element signature="e#1135#1136#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/impl/OrderServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="18" column="14" lean-forward="false" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#617#618#0" expanded="true" />
-            <element signature="e#658#659#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/aside.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1408">
-          <caret line="64" column="80" lean-forward="true" selection-start-line="64" selection-start-column="80" selection-end-line="64" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/product-list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="65" />
+        <state relative-caret-position="154">
+          <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ssm_parent/domain/src/main/java/com/wlh/ssm/domain/Order.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        <state relative-caret-position="176">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
           <folding>
-            <element signature="e#388#389#0" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-            <element signature="e#475#476#0" expanded="true" />
-            <element signature="e#510#511#0" expanded="true" />
-            <element signature="e#541#542#0" expanded="true" />
-            <element signature="e#589#590#0" expanded="true" />
-            <element signature="e#629#630#0" expanded="true" />
-            <element signature="e#665#666#0" expanded="true" />
-            <element signature="e#697#698#0" expanded="true" />
-            <element signature="e#747#748#0" expanded="true" />
-            <element signature="e#789#790#0" expanded="true" />
-            <element signature="e#824#825#0" expanded="true" />
-            <element signature="e#858#859#0" expanded="true" />
-            <element signature="e#909#910#0" expanded="true" />
-            <element signature="e#955#956#0" expanded="true" />
-            <element signature="e#991#992#0" expanded="true" />
-            <element signature="e#1023#1024#0" expanded="true" />
-            <element signature="e#1073#1074#0" expanded="true" />
-            <element signature="e#1115#1116#0" expanded="true" />
-            <element signature="e#1146#1147#0" expanded="true" />
-            <element signature="e#1176#1177#0" expanded="true" />
-            <element signature="e#1219#1220#0" expanded="true" />
-            <element signature="e#1257#1258#0" expanded="true" />
-            <element signature="e#1292#1293#0" expanded="true" />
-            <element signature="e#1326#1327#0" expanded="true" />
-            <element signature="e#1377#1378#0" expanded="true" />
-            <element signature="e#1423#1424#0" expanded="true" />
-            <element signature="e#1458#1459#0" expanded="true" />
-            <element signature="e#1488#1489#0" expanded="true" />
-            <element signature="e#1535#1536#0" expanded="true" />
-            <element signature="e#1573#1574#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="false" />
+            <element signature="e#413#414#0" expanded="false" />
+            <element signature="e#447#448#0" expanded="false" />
+            <element signature="e#475#476#0" expanded="false" />
+            <element signature="e#510#511#0" expanded="false" />
+            <element signature="e#541#542#0" expanded="false" />
+            <element signature="e#589#590#0" expanded="false" />
+            <element signature="e#629#630#0" expanded="false" />
+            <element signature="e#665#666#0" expanded="false" />
+            <element signature="e#697#698#0" expanded="false" />
+            <element signature="e#747#748#0" expanded="false" />
+            <element signature="e#789#790#0" expanded="false" />
+            <element signature="e#824#825#0" expanded="false" />
+            <element signature="e#858#859#0" expanded="false" />
+            <element signature="e#909#910#0" expanded="false" />
+            <element signature="e#955#956#0" expanded="false" />
+            <element signature="e#991#992#0" expanded="false" />
+            <element signature="e#1023#1024#0" expanded="false" />
+            <element signature="e#1073#1074#0" expanded="false" />
+            <element signature="e#1115#1116#0" expanded="false" />
+            <element signature="e#1146#1147#0" expanded="false" />
+            <element signature="e#1176#1177#0" expanded="false" />
+            <element signature="e#1219#1220#0" expanded="false" />
+            <element signature="e#1257#1258#0" expanded="false" />
+            <element signature="e#1292#1293#0" expanded="false" />
+            <element signature="e#1326#1327#0" expanded="false" />
+            <element signature="e#1377#1378#0" expanded="false" />
+            <element signature="e#1423#1424#0" expanded="false" />
+            <element signature="e#1458#1459#0" expanded="false" />
+            <element signature="e#1488#1489#0" expanded="false" />
+            <element signature="e#1535#1536#0" expanded="false" />
+            <element signature="e#1573#1574#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/order-list.jsp">
+    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/impl/OrderServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="165" column="52" lean-forward="false" selection-start-line="165" selection-start-column="52" selection-end-line="165" selection-end-column="52" />
+        <state relative-caret-position="562">
+          <caret line="31" column="19" lean-forward="false" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#617#618#0" expanded="false" />
+            <element signature="e#658#659#0" expanded="false" />
+            <element signature="e#709#710#0" expanded="false" />
+            <element signature="e#745#746#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_dao/src/main/java/com/wlh/ssm/dao/OrderDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="39" column="108" lean-forward="false" selection-start-line="39" selection-start-column="108" selection-end-line="39" selection-end-column="108" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/resources/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/java/com/wlh/ssm/controller/OrderController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+        <state relative-caret-position="421">
+          <caret line="38" column="27" lean-forward="false" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_dao/src/main/java/com/wlh/ssm/dao/ProductDao.java">
+    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/order-add.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="55" column="1" lean-forward="false" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
+        <state relative-caret-position="66">
+          <caret line="156" column="30" lean-forward="false" selection-start-line="156" selection-start-column="30" selection-end-line="156" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_dao/src/main/java/com/wlh/ssm/dao/OrderDao.java">
+    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/resources/applicationContext_web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="22" column="76" lean-forward="false" selection-start-line="22" selection-start-column="76" selection-end-line="22" selection-end-column="76" />
+        <state relative-caret-position="512">
+          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3366">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/ProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="18" column="68" lean-forward="false" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/impl/ProductServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="61" column="50" lean-forward="true" selection-start-line="61" selection-start-column="50" selection-end-line="61" selection-end-column="50" />
+          <folding>
+            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#715#716#0" expanded="true" />
+            <element signature="e#769#770#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+            <element signature="e#870#871#0" expanded="true" />
+            <element signature="e#910#911#0" expanded="true" />
+            <element signature="e#1122#1123#0" expanded="true" />
+            <element signature="e#1171#1172#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_dao/src/main/java/com/wlh/ssm/dao/ProductDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="47" column="44" lean-forward="false" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_parent/domain/src/main/java/com/wlh/ssm/domain/PageBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="58" column="18" lean-forward="false" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
+          <folding>
+            <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#555#556#0" expanded="true" />
+            <element signature="e#608#609#0" expanded="true" />
+            <element signature="e#652#653#0" expanded="true" />
+            <element signature="e#688#689#0" expanded="true" />
+            <element signature="e#719#720#0" expanded="true" />
+            <element signature="e#768#769#0" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
+            <element signature="e#845#846#0" expanded="true" />
+            <element signature="e#877#878#0" expanded="true" />
+            <element signature="e#928#929#0" expanded="true" />
+            <element signature="e#970#971#0" expanded="true" />
+            <element signature="e#1006#1007#0" expanded="true" />
+            <element signature="e#1037#1038#0" expanded="true" />
+            <element signature="e#1086#1087#0" expanded="true" />
+            <element signature="e#1126#1127#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_parent/domain/src/main/java/com/wlh/ssm/domain/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1074">
+          <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/product-list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2039">
+          <caret line="315" column="22" lean-forward="false" selection-start-line="315" selection-start-column="22" selection-end-line="315" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/aside.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="64" column="84" lean-forward="false" selection-start-line="64" selection-start-column="84" selection-end-line="64" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/java/com/wlh/ssm/controller/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="67" column="40" lean-forward="true" selection-start-line="67" selection-start-column="40" selection-end-line="67" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1164#1165#0" expanded="true" />
+            <element signature="e#1214#1215#0" expanded="true" />
           </folding>
         </state>
       </provider>

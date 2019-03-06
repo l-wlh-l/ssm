@@ -37,7 +37,6 @@ public class OrderController {
         List<Product> plist = productService.findAll();
         model.addAttribute("plist",plist);
         return "order-add";
-
     }
     @RequestMapping("/save")
     public String save(Order order){

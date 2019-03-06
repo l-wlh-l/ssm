@@ -1,5 +1,6 @@
 package com.wlh.ssm.service;
 
+import com.wlh.ssm.domain.PageBean;
 import com.wlh.ssm.domain.Product;
 
 import java.util.List;
@@ -14,4 +15,6 @@ public interface ProductService {
     void deleteProducts(Long[] ids);
 
     void updateProduct(Product product);
+
+    PageBean<Product> findByPage(Integer pageNum, Integer pageSize);
 }

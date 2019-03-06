@@ -57,9 +57,13 @@
 			</a>
 				<ul class="treeview-menu">
 
-					<li id="system-setting"><a
+					<%--<li id="system-setting"><a
 						href="${pageContext.request.contextPath}/product/findAll">
 							<i class="fa fa-circle-o"></i> 产品管理
+					</a></li>--%>
+					<li id="system-setting"><a
+							href="${pageContext.request.contextPath}/product/findByPage">
+						<i class="fa fa-circle-o"></i> 产品管理
 					</a></li>
 					<li id="system-setting"><a
 						href="${pageContext.request.contextPath}/order/findAll">
