@@ -42,7 +42,7 @@
 							class="fa fa-circle-o"></i> 用户管理
 					</a></li>
 					<li id="system-setting2"><a
-						href="${pageContext.request.contextPath}/pages/role-list.jsp"> <i
+						href="${pageContext.request.contextPath}/role/findByPageHelper"> <i
 							class="fa fa-circle-o"></i> 角色管理
 					</a></li>
 					<li id="system-setting3"><a
