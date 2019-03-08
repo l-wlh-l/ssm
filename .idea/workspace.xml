@@ -7,25 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="fdf47238-c895-4655-95af-6006bb256312" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/ssm_parent/domain/src/main/java/com/wlh/ssm/domain/Permission.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ssm_parent/domain/src/main/java/com/wlh/ssm/domain/Role.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ssm_parent/ssm_dao/src/main/java/com/wlh/ssm/dao/PermissionDao.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ssm_parent/ssm_dao/src/main/java/com/wlh/ssm/dao/RoleDao.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/PermissionService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/RoleService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/impl/PermissionServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/impl/RoleServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/java/com/wlh/ssm/controller/PermissionController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/java/com/wlh/ssm/controller/RoleController.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/domain/src/main/java/com/wlh/ssm/domain/SysUser.java" afterPath="$PROJECT_DIR$/ssm_parent/domain/src/main/java/com/wlh/ssm/domain/SysUser.java" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/impl/OrderServiceImpl.java" afterPath="$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/impl/OrderServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/impl/UserServiceImpl.java" />
       <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_service/target/classes/com/wlh/ssm/service/impl/OrderServiceImpl.class" afterPath="$PROJECT_DIR$/ssm_parent/ssm_service/target/classes/com/wlh/ssm/service/impl/OrderServiceImpl.class" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/java/com/wlh/ssm/controller/OrderController.java" afterPath="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/java/com/wlh/ssm/controller/OrderController.java" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/java/com/wlh/ssm/controller/UserController.java" afterPath="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/java/com/wlh/ssm/controller/UserController.java" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/aside.jsp" afterPath="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/aside.jsp" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/user-list.jsp" afterPath="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/user-list.jsp" />
       <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/target/classes/com/wlh/ssm/controller/OrderController.class" afterPath="$PROJECT_DIR$/ssm_parent/ssm_web/target/classes/com/wlh/ssm/controller/OrderController.class" />
       <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/WEB-INF/classes/com/wlh/ssm/controller/OrderController.class" afterPath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/WEB-INF/classes/com/wlh/ssm/controller/OrderController.class" />
       <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/WEB-INF/lib/domain-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/WEB-INF/lib/domain-1.0-SNAPSHOT.jar" />
@@ -858,7 +841,7 @@
       <workItem from="1551785916562" duration="17891000" />
       <workItem from="1551860958761" duration="9799000" />
       <workItem from="1551924936623" duration="27617000" />
-      <workItem from="1552025041765" duration="9506000" />
+      <workItem from="1552025041765" duration="9551000" />
     </task>
     <task id="LOCAL-00001">
       <created>1551519147840</created>
@@ -993,7 +976,14 @@
       <option name="project" value="LOCAL" />
       <updated>1552025104820</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="用户查询分页以及">
+      <created>1552048542720</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1552048542720</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1029,7 +1019,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="167950000" />
+    <option name="totallyTimeSpent" value="167995000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1171,7 +1161,8 @@
     <MESSAGE value="分页查询前端页面" />
     <MESSAGE value="安全框架Spring-security" />
     <MESSAGE value="分页查询和验证用户名唯一" />
-    <option name="LAST_COMMIT_MESSAGE" value="分页查询和验证用户名唯一" />
+    <MESSAGE value="用户查询分页以及" />
+    <option name="LAST_COMMIT_MESSAGE" value="用户查询分页以及" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
