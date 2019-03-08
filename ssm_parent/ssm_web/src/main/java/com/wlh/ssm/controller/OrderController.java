@@ -52,7 +52,7 @@ public class OrderController {
 
         PageBean<Order> orderList = orderService.findByPage(pageNumber,pageSize);
 
-        System.out.println(orderList);
+
 
         model.addAttribute("pageBean",orderList);
 

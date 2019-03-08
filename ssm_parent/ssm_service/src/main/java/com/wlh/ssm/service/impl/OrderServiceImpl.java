@@ -48,7 +48,7 @@ public class OrderServiceImpl implements OrderService {
         int pages = pageInfo.getPages();
         pageBean.setTotalPage(pages);
         List<Order> orders = pageInfo.getList();
-        pageBean.setPageList(orderList);
+        pageBean.setPageList(orders);
         return pageBean;
     }
 }

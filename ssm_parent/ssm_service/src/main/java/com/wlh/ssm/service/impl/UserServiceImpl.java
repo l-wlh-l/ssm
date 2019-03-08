@@ -1,5 +1,6 @@
 package com.wlh.ssm.service.impl;
 
+import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.wlh.ssm.dao.UserDao;
 import com.wlh.ssm.domain.Order;
@@ -64,9 +65,11 @@ public class UserServiceImpl implements UserService{
 
     @Override
     public PageBean<SysUser> findByPage(Integer pageNumber, Integer pageSize) {
+
         PageBean<SysUser> pageBean = new PageBean<>();
         pageBean.setPageSize(pageSize);
         pageBean.setPageNumber(pageNumber);
+        PageHelper.startPage(pageNumber,pageSize);
         List<SysUser> sysUserList = findAll();
         PageInfo<SysUser> pageInfo = new PageInfo<>(sysUserList);
         int pages = pageInfo.getPages();

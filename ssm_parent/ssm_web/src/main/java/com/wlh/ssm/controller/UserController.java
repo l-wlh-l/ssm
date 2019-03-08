@@ -67,9 +67,8 @@ public class UserController {
 
         PageBean<SysUser> userPageBean = userService.findByPage(pageNumber,pageSize);
 
-        System.out.println(userPageBean.toString());
 
-        model.addAttribute("pageBean",userPageBean);
+        model.addAttribute("userBean",userPageBean);
 
         return "user-list";
     }

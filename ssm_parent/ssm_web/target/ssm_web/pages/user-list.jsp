@@ -148,7 +148,7 @@
 								</thead>
 								<tbody>
 
-									<c:forEach items="${pageBean.pageList}" var="user">
+									<c:forEach items="${userBean.pageList}" var="user">
 										<tr>
 											<td><input name="ids" type="checkbox"></td>
 											<td>${user.id }</td>
@@ -186,7 +186,7 @@
 					<div class="box-footer">
 						<div class="pull-left">
 							<div class="form-group form-inline">
-								总共${pageBean.totalPage} 页，共${pageBean.totalCount} 条数据。
+								总共${userBean.totalPage} 页，共${userBean.totalCount} 条数据。
 								每页 <select class="form-control" id="pageSize" onchange="gotoPage('1')">
 								<option value="2">2</option>
 								<option value="3">3</option>
@@ -199,14 +199,14 @@
 						<div class="box-tools pull-right">
 							<ul class="pagination">
 								<li><a href="javascript:gotoPage('1')" aria-label="Previous">首页</a></li>
-								<li><a href="javascript:gotoPage('${pageBean.pageNumber-1}')">上一页</a></li>
-								<c:forEach begin="1" end="${pageBean.totalPage}" var="page">
+								<li><a href="javascript:gotoPage('${userBean.pageNumber-1}')">上一页</a></li>
+								<c:forEach begin="1" end="${userBean.totalPage}" var="page">
 									<li><a href="javascript:gotoPage('${page}')">${page}</a></li>
 
 								</c:forEach>
 
-								<li><a href="javascript:gotoPage('${pageBean.pageNumber+1}')">下一页</a></li>
-								<li><a href="javascript:gotoPage('${pageBean.totalPage}')" aria-label="Next">尾页</a></li>
+								<li><a href="javascript:gotoPage('${userBean.pageNumber+1}')">下一页</a></li>
+								<li><a href="javascript:gotoPage('${userBean.totalPage}')" aria-label="Next">尾页</a></li>
 							</ul>
 						</div>
 						<script>
@@ -214,13 +214,13 @@
                             function gotoPage(pageNumber){
                                 var pageSize = $("#pageSize option:selected").val();
                                 //判断页码的有效性
-                                if(pageNumber>=1&&pageNumber<=${pageBean.totalPage}){
-                                    location.href = "${pageContext.request.contextPath}/product/findByPage?" +
+                                if(pageNumber>=1&&pageNumber<=${userBean.totalPage}){
+                                    location.href = "${pageContext.request.contextPath}/user/findByPageHelper?" +
                                         "pageNumber="+pageNumber+"&pageSize="+pageSize;
                                 }
                             }
                             $(function(){
-                                $("#pageSize option[value='${pageBean.pageSize}']").prop("selected",true);
+                                $("#pageSize option[value='${userBean.pageSize}']").prop("selected",true);
                             })
 						</script>
 					</div>

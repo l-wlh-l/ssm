@@ -1,5 +1,7 @@
 package com.wlh.ssm.domain;
 
+import java.util.List;
+
 /**
  * @ClassName SysUser
  * @Description TODO
@@ -14,6 +16,17 @@ public class SysUser {
     private String password;
     private String phoneNum;
     private int status;
+
+
+    private List<Role> roleList;
+
+    public List<Role> getRoleList() {
+        return roleList;
+    }
+
+    public void setRoleList(List<Role> roleList) {
+        this.roleList = roleList;
+    }
 
     public Long getId() {
         return id;
