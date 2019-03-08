@@ -42,20 +42,20 @@ public class ProductController {
 
     @RequestMapping("save")
     public String save(Model model,Product product){
-        return "redirect:/product/findAll";
+        return "redirect:/product/findByPage";
     }
 
 
     @RequestMapping("delete")
     public String  deleteProducts(Long[] ids){
         productService.deleteProducts(ids);
-        return "redirect:/product/findAll";
+        return "redirect:/product/findByPage";
     }
 
     @RequestMapping("update")
     public String updateProduct(Product product){
         productService.updateProduct(product);
-        return "redirect:/product/findAll";
+        return "redirect:/product/findByPage";
     }
 
     @RequestMapping("findByPage")

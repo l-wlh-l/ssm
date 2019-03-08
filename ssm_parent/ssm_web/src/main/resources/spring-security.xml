@@ -34,7 +34,7 @@
         <security:csrf disabled="true"/>
 
         <!-- 退出 -->
-        <security:logout invalidate-session="true" logout-url="/logout" logout-success-url="/login.html"/>
+        <security:logout invalidate-session="true" logout-url="/logout" logout-success-url="/login.jsp"/>
 
     </security:http>
 
@@ -48,7 +48,10 @@
             <!--<security:user-service>
                 <security:user name="admin" password="{noop}admin" authorities="ROLE_USER"/>
             </security:user-service>-->
+            <security:password-encoder ref="passwordEncoder"/>
         </security:authentication-provider>
     </security:authentication-manager>
 
+
+    <bean id="passwordEncoder" class="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder"/>
 </beans>

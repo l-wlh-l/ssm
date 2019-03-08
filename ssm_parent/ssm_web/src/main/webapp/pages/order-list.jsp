@@ -163,9 +163,7 @@
 								</tr>
 							</thead>
 							<tbody>
-							<c:forEach items="${orders}" var="order">
-
-
+							<c:forEach items="${pageBean.pageList}" var="order">
 								<tr>
 									<td><input name="ids" type="checkbox"></td>
 									<td>${order.id}</td>
@@ -235,7 +233,49 @@
 				</div>
 				<!-- /.box-body -->
 
-				<!-- .box-footer-->
+				<script type="text/javascript" src="${pageContext.request.contextPath}/plugins/jQuery/jquery-2.2.3.min.js"></script>
+				<div class="box-footer">
+					<div class="pull-left">
+						<div class="form-group form-inline">
+							总共${pageBean.totalPage} 页，共${pageBean.totalCount} 条数据。
+							每页 <select class="form-control" id="pageSize" onchange="gotoPage('1')">
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+						</select> 条
+						</div>
+					</div>
+
+					<div class="box-tools pull-right">
+						<ul class="pagination">
+							<li><a href="javascript:gotoPage('1')" aria-label="Previous">首页</a></li>
+							<li><a href="javascript:gotoPage('${pageBean.pageNumber-1}')">上一页</a></li>
+							<c:forEach begin="1" end="${pageBean.totalPage}" var="page">
+								<li><a href="javascript:gotoPage('${page}')">${page}</a></li>
+
+							</c:forEach>
+
+							<li><a href="javascript:gotoPage('${pageBean.pageNumber+1}')">下一页</a></li>
+							<li><a href="javascript:gotoPage('${pageBean.totalPage}')" aria-label="Next">尾页</a></li>
+						</ul>
+					</div>
+					<script>
+                        //js功能实现
+                        function gotoPage(pageNumber){
+                            var pageSize = $("#pageSize option:selected").val();
+                            //判断页码的有效性
+                            if(pageNumber>=1&&pageNumber<=${pageBean.totalPage}){
+                                location.href = "${pageContext.request.contextPath}/product/findByPage?" +
+                                    "pageNumber="+pageNumber+"&pageSize="+pageSize;
+                            }
+                        }
+                        $(function(){
+                            $("#pageSize option[value='${pageBean.pageSize}']").prop("selected",true);
+                        })
+					</script>
+				</div>
+				<%--<!-- .box-footer-->
 				<div class="box-footer">
 					<div class="pull-left">
 						<div class="form-group form-inline">
@@ -264,7 +304,7 @@
 					</div>
 
 				</div>
-				<!-- /.box-footer-->
+				<!-- /.box-footer-->--%>
 
 			</div>
 

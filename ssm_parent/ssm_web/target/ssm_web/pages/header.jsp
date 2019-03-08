@@ -1,6 +1,10 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <!-- 页面头部 -->
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt"  prefix="fmt"%>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
+<%@ taglib uri="http://www.springframework.org/security/tags" prefix="security"%>
 <header class="main-header">
 	<!-- Logo -->
 	<a href="all-admin-index.html" class="logo"> <!-- mini logo for sidebar mini 50x50 pixels -->
@@ -37,7 +41,7 @@
 								<a href="#" class="btn btn-default btn-flat">修改密码</a>
 							</div>
 							<div class="pull-right">
-								<a href="${pageContext.request.contextPath}/login.jsp"
+								<a href="${pageContext.request.contextPath}/logout"
 									class="btn btn-default btn-flat">注销</a>
 							</div>
 						</li>

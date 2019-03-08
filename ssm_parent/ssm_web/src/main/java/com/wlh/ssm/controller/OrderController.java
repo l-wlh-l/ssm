@@ -1,6 +1,7 @@
 package com.wlh.ssm.controller;
 
 import com.wlh.ssm.domain.Order;
+import com.wlh.ssm.domain.PageBean;
 import com.wlh.ssm.domain.Product;
 import com.wlh.ssm.service.OrderService;
 import com.wlh.ssm.service.ProductService;
@@ -8,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.List;
 
@@ -41,6 +43,19 @@ public class OrderController {
     @RequestMapping("/save")
     public String save(Order order){
         orderService.save(order);
-        return "redirect:/order/findAll";
+        return "redirect:/order/findByPageHelper";
+    }
+
+    @RequestMapping("findByPageHelper")
+    public String findByPage(@RequestParam(defaultValue = "1") Integer pageNumber,
+                             @RequestParam(defaultValue = "2") Integer pageSize,Model model){
+
+        PageBean<Order> orderList = orderService.findByPage(pageNumber,pageSize);
+
+        System.out.println(orderList);
+
+        model.addAttribute("pageBean",orderList);
+
+        return "order-list";
     }
 }

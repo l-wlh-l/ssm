@@ -1,5 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt"  prefix="fmt"%>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
+<%@ taglib uri="http://www.springframework.org/security/tags" prefix="security"%>
 <aside class="main-sidebar">
 	<!-- sidebar: style can be found in sidebar.less -->
 	<section class="sidebar">
@@ -33,19 +37,19 @@
 			</a>
 				<ul class="treeview-menu">
 
-					<li id="system-setting"><a
-						href="${pageContext.request.contextPath}/pages/user-list.jsp"> <i
+					<li id="system-setting1"><a
+						href="${pageContext.request.contextPath}/user/findByPageHelper"> <i
 							class="fa fa-circle-o"></i> 用户管理
 					</a></li>
-					<li id="system-setting"><a
+					<li id="system-setting2"><a
 						href="${pageContext.request.contextPath}/pages/role-list.jsp"> <i
 							class="fa fa-circle-o"></i> 角色管理
 					</a></li>
-					<li id="system-setting"><a
+					<li id="system-setting3"><a
 						href="${pageContext.request.contextPath}/pages/permission-list.jsp">
 							<i class="fa fa-circle-o"></i> 权限管理
 					</a></li>
-					<li id="system-setting"><a
+					<li id="system-setting4"><a
 						href="${pageContext.request.contextPath}/pages/syslog-list.jsp"> <i
 							class="fa fa-circle-o"></i> 访问日志
 					</a></li>
@@ -61,16 +65,26 @@
 						href="${pageContext.request.contextPath}/product/findAll">
 							<i class="fa fa-circle-o"></i> 产品管理
 					</a></li>--%>
-					<li id="system-setting"><a
-							href="${pageContext.request.contextPath}/product/findByPage">
-						<i class="fa fa-circle-o"></i> 产品管理
-					</a></li>
-					<li id="system-setting"><a
-						href="${pageContext.request.contextPath}/order/findAll">
-							<i class="fa fa-circle-o"></i> 订单管理
-					</a></li>
 
-				</ul></li>
+						<li id="system-setting"><a href="${pageContext.request.contextPath}/product/findByPage">
+
+							<i class="fa fa-circle-o"></i> 产品管理</a>
+
+						</li>
+
+						<%--<li id="system-setting"><a href="${pageContext.request.contextPath}/order/findAll">
+
+							<i class="fa fa-circle-o"></i> 订单管理</a>
+
+						</li>--%>
+
+						<li id="system-setting"><a href="${pageContext.request.contextPath}/order/findByPageHelper">
+							<i class="fa fa-circle-o"></i> 订单管理</a>
+
+						</li>
+
+				</ul>
+			</li>
 
 		</ul>
 	</section>
