@@ -3,7 +3,9 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt"  prefix="fmt"%>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
-<%@ taglib uri="http://www.springframework.org/security/tags" prefix="security"%>
+
+
+
 <aside class="main-sidebar">
 	<!-- sidebar: style can be found in sidebar.less -->
 	<section class="sidebar">
@@ -15,7 +17,7 @@
 			</div>
 			<div class="pull-left info">
 				<p>
-					<security:authentication property="principal.username" />
+                    ${sessionScope.SPRING_SECURITY_CONTEXT.authentication.principal.username}
 				</p>
 				<a href="#"><i class="fa fa-circle text-success"></i> 在线</a>
 			</div>

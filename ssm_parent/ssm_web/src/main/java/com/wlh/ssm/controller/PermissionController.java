@@ -28,4 +28,17 @@ public class PermissionController {
         modele.addAttribute("permissionList",list);
         return "permission-list";
     }
+
+    @RequestMapping("findByPid")
+    public String findByPid(Long pid,Model model){
+        model.addAttribute("pList",permissionService.findByPid(pid));
+        return "permission-add";
+    }
+
+    @RequestMapping("save")
+    public String save(Permission permission){
+        permissionService.save(permission);
+        return "redirect:/permission/findAll";
+    }
+
 }

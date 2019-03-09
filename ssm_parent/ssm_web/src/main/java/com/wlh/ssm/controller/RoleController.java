@@ -8,6 +8,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.util.List;
 
@@ -26,8 +27,8 @@ public class RoleController {
     private RoleService roleService;
 
     @RequestMapping("findByPageHelper")
-    public String findByPageHelper(Model model, @RequestParam(defaultValue = "1") Integer pageSize,
-                                                @RequestParam(defaultValue = "2") Integer pageNumber
+    public String findByPageHelper(Model model, @RequestParam(defaultValue = "2") Integer pageSize,
+                                                @RequestParam(defaultValue = "1") Integer pageNumber
     ){
 
         PageBean<Role> roleList = roleService.findByPageHelper(pageSize,pageNumber);
@@ -35,5 +36,19 @@ public class RoleController {
         model.addAttribute("roleList",roleList);
         return "role-list";
     }
+
+    @RequestMapping("add")
+    public String save(Role role){
+        roleService.save(role);
+        return "role/findByPageHelper";
+    }
+
+    @RequestMapping("findByRoleName")
+    @ResponseBody
+    public String findByRoleName(String roleName){
+        return roleService.findByRoleName(roleName);
+    }
+
+
 
 }

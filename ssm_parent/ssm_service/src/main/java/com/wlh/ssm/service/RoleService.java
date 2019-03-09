@@ -9,4 +9,8 @@ public interface RoleService {
 
 
     PageBean<Role> findByPageHelper(Integer pageSize,Integer pageNumber);
+
+    void save(Role role);
+
+    String findByRoleName(String roleName);
 }

@@ -24,4 +24,14 @@ public class PermissionServiceImpl implements PermissionService {
     public List<Permission> findAll() {
         return permissionDao.findAll();
     }
+
+    @Override
+    public List<Permission> findByPid(Long pid) {
+        return permissionDao.findByPid(pid);
+    }
+
+    @Override
+    public void save(Permission permission) {
+        permissionDao.save(permission);
+    }
 }

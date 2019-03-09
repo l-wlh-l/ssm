@@ -1,5 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt"  prefix="fmt"%>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -84,7 +87,7 @@
 				<li><a href="${pageContext.request.contextPath}/index.jsp"><i
 						class="fa fa-dashboard"></i> 首页</a></li>
 				<li><a
-					href="${pageContext.request.contextPath}/role/findAll.do">角色管理</a></li>
+					href="${pageContext.request.contextPath}/role/findByPageHelper">角色管理</a></li>
 
 				<li class="active">全部角色</li>
 			</ol>
@@ -110,7 +113,8 @@
 										<button type="button" class="btn btn-default" title="新建" onclick="location.href='${pageContext.request.contextPath}/pages/role-add.jsp'">
 											<i class="fa fa-file-o"></i> 新建
 										</button>
-										
+
+
 										<button type="button" class="btn btn-default" title="刷新">
 											<i class="fa fa-refresh"></i> 刷新
 										</button>
@@ -142,7 +146,7 @@
 								</thead>
 								<tbody>
 
-									<c:forEach items="${roleList}" var="role">
+									<c:forEach items="${roleList.pageList}" var="role">
 										<tr>
 											<td><input name="ids" type="checkbox"></td>
 											<td>${role.id }</td>
@@ -172,9 +176,50 @@
 
 					</div>
 					<!-- /.box-body -->
-
-					<!-- .box-footer-->
+					<script type="text/javascript" src="${pageContext.request.contextPath}/plugins/jQuery/jquery-2.2.3.min.js"></script>
 					<div class="box-footer">
+						<div class="pull-left">
+							<div class="form-group form-inline">
+								总共${roleList.totalPage} 页，共${roleList.totalCount} 条数据。
+								每页 <select class="form-control" id="pageSize" onchange="gotoPage('1')">
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+							</select> 条
+							</div>
+						</div>
+
+						<div class="box-tools pull-right">
+							<ul class="pagination">
+								<li><a href="javascript:gotoPage('1')" aria-label="Previous">首页</a></li>
+								<li><a href="javascript:gotoPage('${roleList.pageNumber-1}')">上一页</a></li>
+								<c:forEach begin="1" end="${roleList.totalPage}" var="page">
+									<li><a href="javascript:gotoPage('${page}')">${page}</a></li>
+
+								</c:forEach>
+
+								<li><a href="javascript:gotoPage('${roleList.pageNumber+1}')">下一页</a></li>
+								<li><a href="javascript:gotoPage('${roleList.totalPage}')" aria-label="Next">尾页</a></li>
+							</ul>
+						</div>
+						<script>
+                            //js功能实现
+                            function gotoPage(pageNumber){
+                                var pageSize = $("#pageSize option:selected").val();
+                                //判断页码的有效性
+                                if(pageNumber>=1&&pageNumber<=${roleList.totalPage}){
+                                    location.href = "${pageContext.request.contextPath}/role/findByPageHelper?" +
+                                        "pageNumber="+pageNumber+"&pageSize="+pageSize;
+                                }
+                            }
+                            $(function(){
+                                $("#pageSize option[value='${roleList.pageSize}']").prop("selected",true);
+                            })
+						</script>
+					</div>
+					<!-- .box-footer-->
+					<%--<div class="box-footer">
 						<div class="pull-left">
 							<div class="form-group form-inline">
 								总共2 页，共14 条数据。 每页 <select class="form-control">
@@ -201,7 +246,7 @@
 							</ul>
 						</div>
 
-					</div>
+					</div>--%>
 					<!-- /.box-footer-->
 
 				</div>

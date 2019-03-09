@@ -4,7 +4,9 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt"  prefix="fmt"%>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
-<%@ taglib uri="http://www.springframework.org/security/tags" prefix="security"%>
+
+
+
 <header class="main-header">
 	<!-- Logo -->
 	<a href="all-admin-index.html" class="logo"> <!-- mini logo for sidebar mini 50x50 pixels -->
@@ -24,7 +26,9 @@
 				<li class="dropdown user user-menu"><a href="#"
 					class="dropdown-toggle" data-toggle="dropdown"> <img
 						src="${pageContext.request.contextPath}/img/user2-160x160.jpg"
-						class="user-image" alt="User Image"> <span class="hidden-xs">
+						class="user-image" alt="User Image">
+					<span class="hidden-xs">
+						${sessionScope.SPRING_SECURITY_CONTEXT.authentication.principal.username}
 							<security:authentication property="principal.username" />
 					</span>
 

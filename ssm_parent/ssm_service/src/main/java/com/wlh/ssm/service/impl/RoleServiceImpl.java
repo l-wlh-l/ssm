@@ -35,4 +35,15 @@ public class RoleServiceImpl implements RoleService {
         pageBean.setTotalPage(pageInfo.getPages());
         return pageBean;
     }
+
+    @Override
+    public void save(Role role) {
+        roleDao.save(role);
+    }
+
+    @Override
+    public String findByRoleName(String roleName) {
+        Integer byName = roleDao.findByName(roleName);
+        return byName.toString();
+    }
 }

@@ -84,13 +84,13 @@
 			<ol class="breadcrumb">
 				<li><a href="${pageContext.request.contextPath}/index.jsp"><i
 						class="fa fa-dashboard"></i> 首页</a></li>
-				<li><a href="${pageContext.request.contextPath}/role/findAll.do">角色管理</a></li>
+				<li><a href="${pageContext.request.contextPath}/role/findByPageHelper">角色管理</a></li>
 				<li class="active">角色表单</li>
 			</ol>
 			</section>
 			<!-- 内容头部 /-->
 
-			<form action="${pageContext.request.contextPath}/role/save.do"
+			<form action="${pageContext.request.contextPath}/role/findByPageHelper"
 				method="post">
 				<!-- 正文区域 -->
 				<section class="content"> <!--产品信息-->
@@ -101,7 +101,7 @@
 
 						<div class="col-md-2 title">角色名称</div>
 						<div class="col-md-4 data">
-							<input type="text" class="form-control" name="roleName"
+							<input type="text" class="form-control" name="roleName" id="roleName" onchange="findByRoleName()"
 								placeholder="角色名称" value="">
 						</div>
 						<div class="col-md-2 title">角色描述</div>
@@ -112,10 +112,38 @@
 										
 
 					</div>
+					<script type="text/javascript">
+                        //判断用户名的唯一性
+                        function findByRoleName(){
+
+                            //用户名
+                            var roleName = $("#roleName").val();
+                            //异步判断
+                            $.ajax({
+                                url : "${pageContext.request.contextPath}/role/findByRoleName",
+                                type : "post",
+                                data : {"roleName":roleName},
+                                dataType : "json",
+                                success : function(data){
+                                    //如果 data == 1 存在了  ==0不存在
+                                    if(data == 1){
+                                        //边框红了
+                                        $("#roleName").attr("style","border: solid 1px red");
+                                        $("#saveBtn").prop("disabled",true);
+                                    }else{
+                                        //边框已经红了 清除之前的样式
+                                        $("#roleName").attr("style","none");
+                                        $("#saveBtn").prop("disabled",false);
+                                    }
+                                }
+                            });
+
+                        }
+					</script>
 				</div>
 				<!--订单信息/--> <!--工具栏-->
 				<div class="box-tools text-center">
-					<button type="submit" class="btn bg-maroon">保存</button>
+					<button id="saveBtn" type="submit" class="btn bg-maroon">保存</button>
 					<button type="button" class="btn bg-default"
 						onclick="history.back(-1);">返回</button>
 				</div>
