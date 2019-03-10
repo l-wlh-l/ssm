@@ -13,4 +13,6 @@ public interface RoleService {
     void save(Role role);
 
     String findByRoleName(String roleName);
+
+    List<Role> finAll();
 }

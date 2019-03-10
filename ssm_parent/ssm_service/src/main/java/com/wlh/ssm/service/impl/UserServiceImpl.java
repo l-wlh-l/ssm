@@ -5,6 +5,7 @@ import com.github.pagehelper.PageInfo;
 import com.wlh.ssm.dao.UserDao;
 import com.wlh.ssm.domain.Order;
 import com.wlh.ssm.domain.PageBean;
+import com.wlh.ssm.domain.Role;
 import com.wlh.ssm.domain.SysUser;
 import com.wlh.ssm.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -39,7 +40,12 @@ public class UserServiceImpl implements UserService{
         SysUser user = userDao.findUserByUsername(username);
         if(null != user){
             Set<GrantedAuthority> authorities = new HashSet<>();
-            authorities.add(new SimpleGrantedAuthority("ROLE_USER"));
+            List<Role> roleList = user.getRoleList();
+            for (Role role : roleList) {
+
+                authorities.add(new SimpleGrantedAuthority(role.getRoleName()));
+            }
+
             return new User(username,user.getPassword(),authorities);
         }
 
@@ -79,5 +85,18 @@ public class UserServiceImpl implements UserService{
         List<SysUser> list = pageInfo.getList();
         pageBean.setPageList(list);
         return pageBean;
+    }
+
+    @Override
+    public SysUser findById(Long id) {
+        return userDao.findById(id);
+    }
+
+    @Override
+    public void addRoleToUser(Long[] ids, Long id) {
+        userDao.deleteRoleToUser(id);
+        for (Long i : ids) {
+            userDao.addRoleToUser(id,i);
+        }
     }
 }

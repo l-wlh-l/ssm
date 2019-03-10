@@ -17,4 +17,8 @@ public interface UserService extends UserDetailsService {
     String findByUserName(String username);
 
     PageBean<SysUser> findByPage(Integer pageNumber, Integer pageSize);
+
+    SysUser findById(Long id);
+
+    void addRoleToUser(Long[] ids, Long id);
 }

@@ -7,118 +7,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="fdf47238-c895-4655-95af-6006bb256312" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_3_3_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_2_2_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_10.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_api_2_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_javax_servlet_jsp_api_2_3_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jstl_jstl_api_1_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_11_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__taglibs_standard_1_1_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/resources/log4j2.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ssm_web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/ssm_web_war_exploded.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__c3p0_c3p0_0_9_1_2.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_1.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_12.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_38.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_6_8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_2.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_6.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_6_6.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_acl_5_0_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_1_2_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_0_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_1_2_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_0_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_1_2_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_taglibs_5_0_1_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_0_1_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_3_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_3_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_3_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_0_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_indexer_5_1_3_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_3_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_3_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_3_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_3_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_0_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_3_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_3_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_3_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_2_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_3_RELEASE.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/domain/domain.iml" afterPath="$PROJECT_DIR$/ssm_parent/domain/domain.iml" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/pom.xml" afterPath="$PROJECT_DIR$/ssm_parent/pom.xml" />
       <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_dao/src/main/java/com/wlh/ssm/dao/PermissionDao.java" afterPath="$PROJECT_DIR$/ssm_parent/ssm_dao/src/main/java/com/wlh/ssm/dao/PermissionDao.java" />
       <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_dao/src/main/java/com/wlh/ssm/dao/RoleDao.java" afterPath="$PROJECT_DIR$/ssm_parent/ssm_dao/src/main/java/com/wlh/ssm/dao/RoleDao.java" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_dao/ssm_dao.iml" afterPath="$PROJECT_DIR$/ssm_parent/ssm_dao/ssm_dao.iml" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_parent.iml" afterPath="$PROJECT_DIR$/ssm_parent/ssm_parent.iml" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/PermissionService.java" afterPath="$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/PermissionService.java" />
+      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_dao/src/main/java/com/wlh/ssm/dao/UserDao.java" afterPath="$PROJECT_DIR$/ssm_parent/ssm_dao/src/main/java/com/wlh/ssm/dao/UserDao.java" />
       <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/RoleService.java" afterPath="$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/RoleService.java" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/impl/PermissionServiceImpl.java" afterPath="$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/impl/PermissionServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/UserService.java" afterPath="$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/UserService.java" />
       <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/impl/RoleServiceImpl.java" afterPath="$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/impl/RoleServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_service/ssm_service.iml" afterPath="$PROJECT_DIR$/ssm_parent/ssm_service/ssm_service.iml" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/java/com/wlh/ssm/controller/PermissionController.java" afterPath="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/java/com/wlh/ssm/controller/PermissionController.java" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/java/com/wlh/ssm/controller/RoleController.java" afterPath="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/java/com/wlh/ssm/controller/RoleController.java" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/resources/SqlMapConfiger.xml" afterPath="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/resources/SqlMapConfiger.xml" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/resources/applicationContext_web.xml" afterPath="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/resources/applicationContext_web.xml" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/resources/log4j.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/aside.jsp" afterPath="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/aside.jsp" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/header.jsp" afterPath="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/header.jsp" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/main.jsp" afterPath="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/main.jsp" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/permission-add.jsp" afterPath="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/permission-add.jsp" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/permission-list.jsp" afterPath="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/permission-list.jsp" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/product-update.jsp" afterPath="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/product-update.jsp" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/role-add.jsp" afterPath="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/role-add.jsp" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/role-list.jsp" afterPath="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/role-list.jsp" />
+      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/impl/UserServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/java/com/wlh/ssm/controller/UserController.java" afterPath="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/java/com/wlh/ssm/controller/UserController.java" />
       <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/user-list.jsp" afterPath="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/user-list.jsp" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/ssm_web.iml" afterPath="$PROJECT_DIR$/ssm_parent/ssm_web/ssm_web.iml" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/target/classes/applicationContext_web.xml" afterPath="$PROJECT_DIR$/ssm_parent/ssm_web/target/classes/applicationContext_web.xml" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/WEB-INF/classes/applicationContext_web.xml" afterPath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/WEB-INF/classes/applicationContext_web.xml" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/WEB-INF/lib/aspectjweaver-1.6.8.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/WEB-INF/lib/c3p0-0.9.1.2.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/WEB-INF/lib/domain-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/WEB-INF/lib/domain-1.0-SNAPSHOT.jar" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/WEB-INF/lib/log4j-1.2.12.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/WEB-INF/lib/mybatis-3.4.5.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/WEB-INF/lib/mybatis-spring-1.3.0.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/WEB-INF/lib/mysql-connector-java-5.1.6.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/WEB-INF/lib/slf4j-api-1.6.6.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/WEB-INF/lib/slf4j-log4j12-1.6.6.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/WEB-INF/lib/spring-aop-5.0.2.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/WEB-INF/lib/spring-beans-5.0.2.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/WEB-INF/lib/spring-context-5.0.2.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/WEB-INF/lib/spring-context-support-5.0.2.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/WEB-INF/lib/spring-core-5.0.2.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/WEB-INF/lib/spring-expression-5.0.2.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/WEB-INF/lib/spring-jcl-5.0.2.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/WEB-INF/lib/spring-jdbc-5.0.2.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/WEB-INF/lib/spring-orm-5.0.2.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/WEB-INF/lib/spring-security-acl-5.0.1.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/WEB-INF/lib/spring-security-config-5.0.1.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/WEB-INF/lib/spring-security-core-5.0.1.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/WEB-INF/lib/spring-security-taglibs-5.0.1.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/WEB-INF/lib/spring-security-web-5.0.1.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/WEB-INF/lib/spring-test-5.0.2.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/WEB-INF/lib/spring-tx-5.0.2.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/WEB-INF/lib/spring-web-5.0.2.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/WEB-INF/lib/spring-webmvc-5.0.2.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/WEB-INF/lib/ssm_dao-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/WEB-INF/lib/ssm_dao-1.0-SNAPSHOT.jar" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/WEB-INF/lib/ssm_service-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/WEB-INF/lib/ssm_service-1.0-SNAPSHOT.jar" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/pages/aside.jsp" afterPath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/pages/aside.jsp" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/pages/header.jsp" afterPath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/pages/header.jsp" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/pages/main.jsp" afterPath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/pages/main.jsp" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/pages/permission-add.jsp" afterPath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/pages/permission-add.jsp" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/pages/permission-list.jsp" afterPath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/pages/permission-list.jsp" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/pages/product-update.jsp" afterPath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/pages/product-update.jsp" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/pages/role-add.jsp" afterPath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/pages/role-add.jsp" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/pages/role-list.jsp" afterPath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/pages/role-list.jsp" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/pages/user-list.jsp" afterPath="$PROJECT_DIR$/ssm_parent/ssm_web/target/ssm_web/pages/user-list.jsp" />
-      <change beforePath="$PROJECT_DIR$/ssm_parent/utils/utils.iml" afterPath="$PROJECT_DIR$/ssm_parent/utils/utils.iml" />
+      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/user-role-add.jsp" afterPath="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/user-role-add.jsp" />
+      <change beforePath="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/user-show.jsp" afterPath="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/user-show.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/ssm_maven/target/" />
@@ -153,66 +53,105 @@
     <expand />
     <select />
   </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="ssm_maven" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="permission-list.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/permission-list.jsp">
+      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="111" column="59" lean-forward="true" selection-start-line="111" selection-start-column="59" selection-end-line="111" selection-end-column="59" />
+            <state relative-caret-position="495">
+              <caret line="48" column="69" lean-forward="false" selection-start-line="48" selection-start-column="69" selection-end-line="48" selection-end-column="69" />
+              <folding>
+                <element signature="e#2904#2905#0" expanded="true" />
+                <element signature="e#2947#2948#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_dao/src/main/java/com/wlh/ssm/dao/UserDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="254">
+              <caret line="22" column="37" lean-forward="false" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/header.jsp">
+      <file leaf-file-name="applicationContext_web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/resources/applicationContext_web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="31" column="85" lean-forward="true" selection-start-line="31" selection-start-column="85" selection-end-line="31" selection-end-column="85" />
+            <state relative-caret-position="227">
+              <caret line="59" column="45" lean-forward="false" selection-start-line="59" selection-start-column="45" selection-end-line="59" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PermissionDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_dao/src/main/java/com/wlh/ssm/dao/PermissionDao.java">
+      <file leaf-file-name="springmvc.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/resources/springmvc.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+            <state relative-caret-position="553">
+              <caret line="37" column="28" lean-forward="false" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PermissionController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/java/com/wlh/ssm/controller/PermissionController.java">
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/java/com/wlh/ssm/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="39" column="29" lean-forward="true" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+            <state relative-caret-position="-1272">
+              <caret line="32" column="14" lean-forward="true" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user-show.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/user-show.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="131" column="8" lean-forward="false" selection-start-line="131" selection-start-column="8" selection-end-line="131" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Permission.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssm_parent/domain/src/main/java/com/wlh/ssm/domain/Permission.java">
+      <file leaf-file-name="role-list.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/role-list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+            <state relative-caret-position="716">
+              <caret line="211" column="109" lean-forward="false" selection-start-line="211" selection-start-column="109" selection-end-line="211" selection-end-column="109" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RoleServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/impl/RoleServiceImpl.java">
+      <file leaf-file-name="db.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/resources/db.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+            <state relative-caret-position="44">
+              <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RoleDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_dao/src/main/java/com/wlh/ssm/dao/RoleDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="616">
+              <caret line="36" column="18" lean-forward="false" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -252,8 +191,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/order-add.jsp" />
-        <option value="$PROJECT_DIR$/ssm_parent/ssm_dao/src/main/java/com/wlh/ssm/dao/OrderDao.java" />
         <option value="$PROJECT_DIR$/ssm_parent/ssm_dao/src/main/java/com/wlh/ssm/dao/ProductDao.java" />
         <option value="$PROJECT_DIR$/ssm_parent/domain/src/main/java/com/wlh/ssm/domain/PageBean.java" />
         <option value="$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/ProductService.java" />
@@ -265,28 +202,21 @@
         <option value="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/resources/mybatis.xml" />
         <option value="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/ssm_parent/ssm_dao/src/main/java/com/wlh/ssm/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/user-add.jsp" />
         <option value="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/resources/spring-security.xml" />
         <option value="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/login.jsp" />
         <option value="$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/OrderService.java" />
         <option value="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/java/com/wlh/ssm/controller/ProductController.java" />
-        <option value="$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/UserService.java" />
         <option value="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/order-list.jsp" />
         <option value="$PROJECT_DIR$/ssm_parent/domain/src/main/java/com/wlh/ssm/domain/Permission.java" />
         <option value="$PROJECT_DIR$/ssm_parent/domain/src/main/java/com/wlh/ssm/domain/Role.java" />
         <option value="$PROJECT_DIR$/ssm_parent/domain/src/main/java/com/wlh/ssm/domain/SysUser.java" />
         <option value="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/product-list.jsp" />
-        <option value="$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/impl/OrderServiceImpl.java" />
-        <option value="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/java/com/wlh/ssm/controller/UserController.java" />
         <option value="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/java/com/wlh/ssm/controller/OrderController.java" />
-        <option value="$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/RoleService.java" />
-        <option value="$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/impl/RoleServiceImpl.java" />
         <option value="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/role-add.jsp" />
         <option value="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/role-list.jsp" />
-        <option value="$PROJECT_DIR$/ssm_parent/ssm_dao/src/main/java/com/wlh/ssm/dao/RoleDao.java" />
         <option value="$PROJECT_DIR$/ssm_parent/pom.xml" />
         <option value="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/resources/applicationContext_web.xml" />
         <option value="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/main.jsp" />
@@ -300,9 +230,18 @@
         <option value="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/java/com/wlh/ssm/controller/PermissionController.java" />
         <option value="$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/PermissionService.java" />
         <option value="$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/impl/PermissionServiceImpl.java" />
-        <option value="$PROJECT_DIR$/ssm_parent/ssm_dao/src/main/java/com/wlh/ssm/dao/PermissionDao.java" />
         <option value="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/permission-add.jsp" />
+        <option value="$PROJECT_DIR$/ssm_parent/ssm_dao/src/main/java/com/wlh/ssm/dao/RoleDao.java" />
+        <option value="$PROJECT_DIR$/ssm_parent/ssm_dao/src/main/java/com/wlh/ssm/dao/PermissionDao.java" />
+        <option value="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/user-show.jsp" />
+        <option value="$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/RoleService.java" />
+        <option value="$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/impl/RoleServiceImpl.java" />
         <option value="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/user-list.jsp" />
+        <option value="$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/UserService.java" />
+        <option value="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/user-role-add.jsp" />
+        <option value="$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ssm_parent/ssm_dao/src/main/java/com/wlh/ssm/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/ssm_parent/ssm_web/src/main/java/com/wlh/ssm/controller/UserController.java" />
       </list>
     </option>
   </component>
@@ -342,7 +281,7 @@
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="ssm_web Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
       <select />
@@ -581,7 +520,12 @@
             </path>
             <path>
               <item name="ssm_maven" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="ssm_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -598,7 +542,7 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="SearchEverywhereHistoryKey" value="platformT&#9;PSI&#9;JAVA://org.springframework.transaction.PlatformTransactionManager" />
@@ -825,7 +769,7 @@
       <workItem from="1552025041765" duration="12525000" />
       <workItem from="1552051607864" duration="3210000" />
       <workItem from="1552054885126" duration="1156000" />
-      <workItem from="1552058122207" duration="9152000" />
+      <workItem from="1552058122207" duration="23123000" />
     </task>
     <task id="LOCAL-00001">
       <created>1551519147840</created>
@@ -981,7 +925,14 @@
       <option name="project" value="LOCAL" />
       <updated>1552049840416</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="权限列表查询与新增">
+      <created>1552124628811</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1552124628812</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1017,7 +968,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="184487000" />
+    <option name="totallyTimeSpent" value="198458000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1043,7 +994,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="1.0" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.70995146" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288835" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25606796" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1054,7 +1005,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.9296116" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288835" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288835" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31209505" sideWeight="0.49514562" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31209505" sideWeight="0.49514562" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2802376" sideWeight="0.5048544" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21976241" sideWeight="0.5048544" order="6" side_tool="true" content_ui="tabs" />
@@ -1066,6 +1017,41 @@
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288835" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288835" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288835" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3763499" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.9623786" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288835" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25606796" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288835" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288835" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.9296116" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288835" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288835" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288835" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31209505" sideWeight="0.49514562" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2802376" sideWeight="0.5048544" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288835" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21976241" sideWeight="0.5048544" order="6" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -1127,18 +1113,11 @@
     <MESSAGE value="用户查询分页以及" />
     <MESSAGE value="用户查询分页" />
     <MESSAGE value="角色查询" />
-    <option name="LAST_COMMIT_MESSAGE" value="角色查询" />
+    <MESSAGE value="权限列表查询与新增" />
+    <option name="LAST_COMMIT_MESSAGE" value="权限列表查询与新增" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/java/com/wlh/ssm/controller/UserController.java</url>
-          <line>35</line>
-          <properties />
-          <option name="timeStamp" value="43" />
-        </line-breakpoint>
-      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
@@ -1151,87 +1130,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/resources/log4j.properties" />
-    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_dao/src/main/java/com/wlh/ssm/dao/OrderDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_dao/src/main/java/com/wlh/ssm/dao/ProductDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_dao/src/main/java/com/wlh/ssm/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="20" column="32" lean-forward="false" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/ProductService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/impl/OrderServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.3.RELEASE/spring-aop-5.1.3.RELEASE.jar!/org/springframework/aop/support/AopUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="193" column="0" lean-forward="false" selection-start-line="193" selection-start-column="0" selection-end-line="193" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.3.RELEASE/spring-aop-5.1.3.RELEASE.jar!/org/springframework/aop/framework/ReflectiveMethodInvocation.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.1.3.RELEASE/spring-tx-5.1.3.RELEASE.jar!/org/springframework/transaction/interceptor/TransactionAspectSupport.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="185" column="0" lean-forward="false" selection-start-line="185" selection-start-column="0" selection-end-line="185" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-330">
@@ -1272,14 +1170,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/role-add.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1892">
-          <caret line="86" column="77" lean-forward="false" selection-start-line="86" selection-start-column="77" selection-end-line="86" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/role-permission-add.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1292,38 +1182,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/user-add.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="26" lean-forward="false" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/user-role-add.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/user-show.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="16" column="51" lean-forward="true" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
           <folding />
         </state>
       </provider>
@@ -1352,42 +1210,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/resources/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-261">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/resources/SqlMapConfiger.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/resources/db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/resources/spring-security.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-302">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/resources/applicationContext_web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="45" column="21" lean-forward="false" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -1404,14 +1230,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="16" column="64" lean-forward="false" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/role-list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="716">
-          <caret line="211" column="109" lean-forward="false" selection-start-line="211" selection-start-column="109" selection-end-line="211" selection-end-column="109" />
           <folding />
         </state>
       </provider>
@@ -1440,37 +1258,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/java/com/wlh/ssm/controller/RoleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="641">
-          <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-          <folding>
-            <element signature="e#1385#1386#0" expanded="true" />
-            <element signature="e#1444#1445#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/RoleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/PermissionService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="11" column="37" lean-forward="false" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/java/com/wlh/ssm/controller/OrderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1483,22 +1274,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/java/com/wlh/ssm/controller/PermissionController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="39" column="29" lean-forward="true" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_dao/src/main/java/com/wlh/ssm/dao/PermissionDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/header.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -1507,18 +1282,133 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/impl/RoleServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/permission-add.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        <state relative-caret-position="433">
+          <caret line="116" column="45" lean-forward="false" selection-start-line="116" selection-start-column="45" selection-end-line="116" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/permission-list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="111" column="59" lean-forward="true" selection-start-line="111" selection-start-column="59" selection-end-line="111" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_dao/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_dao/src/main/java/com/wlh/ssm/dao/ProductDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_dao/src/main/java/com/wlh/ssm/dao/PermissionDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="22" column="45" lean-forward="false" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="54" column="20" lean-forward="true" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/resources/spring-security.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="79" lean-forward="true" selection-start-line="8" selection-start-column="79" selection-end-line="8" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/RoleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/role-add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1892">
+          <caret line="86" column="77" lean-forward="false" selection-start-line="86" selection-start-column="77" selection-end-line="86" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/user-add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="26" lean-forward="false" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/user-list.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="160" column="131" lean-forward="true" selection-start-line="160" selection-start-column="131" selection-end-line="160" selection-end-column="131" />
+        <state relative-caret-position="396">
+          <caret line="162" column="45" lean-forward="true" selection-start-line="162" selection-start-column="45" selection-end-line="162" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="22" column="44" lean-forward="false" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/user-role-add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="99" column="80" lean-forward="true" selection-start-line="99" selection-start-column="80" selection-end-line="99" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/impl/RoleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="584">
+          <caret line="51" column="27" lean-forward="false" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
+          <folding>
+            <element signature="e#1444#1445#0" expanded="true" />
+            <element signature="e#1484#1485#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/impl/ProductServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="562">
+          <caret line="66" column="24" lean-forward="false" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -1536,26 +1426,130 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/impl/ProductServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/impl/OrderServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="66" column="24" lean-forward="false" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="24" />
+        <state relative-caret-position="-19">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/permission-add.jsp">
+    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/java/com/wlh/ssm/controller/OrderController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="116" column="45" lean-forward="false" selection-start-line="116" selection-start-column="45" selection-end-line="116" selection-end-column="45" />
+        <state relative-caret-position="412">
+          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/permission-list.jsp">
+    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/java/com/wlh/ssm/controller/PermissionController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="111" column="59" lean-forward="true" selection-start-line="111" selection-start-column="59" selection-end-line="111" selection-end-column="59" />
+        <state relative-caret-position="487">
+          <caret line="39" column="29" lean-forward="true" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/java/com/wlh/ssm/controller/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-490">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/java/com/wlh/ssm/controller/RoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_parent/domain/src/main/java/com/wlh/ssm/domain/SysUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+          <folding>
+            <element signature="e#398#399#0" expanded="false" />
+            <element signature="e#429#430#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_service/src/main/java/com/wlh/ssm/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="48" column="69" lean-forward="false" selection-start-line="48" selection-start-column="69" selection-end-line="48" selection-end-column="69" />
+          <folding>
+            <element signature="e#2904#2905#0" expanded="true" />
+            <element signature="e#2947#2948#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_dao/src/main/java/com/wlh/ssm/dao/RoleDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="36" column="18" lean-forward="false" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_dao/src/main/java/com/wlh/ssm/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="22" column="37" lean-forward="false" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/resources/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/resources/applicationContext_web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="59" column="45" lean-forward="false" selection-start-line="59" selection-start-column="45" selection-end-line="59" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/resources/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="553">
+          <caret line="37" column="28" lean-forward="false" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/java/com/wlh/ssm/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1272">
+          <caret line="32" column="14" lean-forward="true" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/user-show.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="131" column="8" lean-forward="false" selection-start-line="131" selection-start-column="8" selection-end-line="131" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_parent/ssm_web/src/main/webapp/pages/role-list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="716">
+          <caret line="211" column="109" lean-forward="false" selection-start-line="211" selection-start-column="109" selection-end-line="211" selection-end-column="109" />
           <folding />
         </state>
       </provider>

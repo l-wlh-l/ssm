@@ -1,8 +1,8 @@
 package com.wlh.ssm.dao;
 
 import com.wlh.ssm.domain.Role;
-import org.apache.ibatis.annotations.Insert;
-import org.apache.ibatis.annotations.Select;
+import org.apache.ibatis.annotations.*;
+import org.apache.ibatis.mapping.FetchType;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
@@ -24,4 +24,15 @@ public interface RoleDao {
 
     @Select("select count(1) from sys_role where roleName = #{roleName}" )
     Integer findByName(String roleName);
+
+    @Select("select r.* from sys_user_role ur, sys_role r where ur.roleid=r.id and ur.userId = #{uid}")
+    @Results({
+            @Result(column = "id",property = "id",id = true),
+            @Result(column = "id",
+                    property ="permissionList",
+                    javaType = List.class,
+                    many =@Many(select = "com.wlh.ssm.dao.PermissionDao.findByRid" ,fetchType = FetchType.LAZY)
+            )
+    })
+    List<Role> findByUid(Long uid);
 }

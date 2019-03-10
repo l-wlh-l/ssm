@@ -19,4 +19,7 @@ public interface PermissionDao {
 
     @Insert("insert into sys_permission (permissionName,url,pid) values(#{permissionName},#{url},#{pid})")
     void save(Permission permission);
+
+    @Select("select p.* from sys_role_permission rp,sys_permission p where rp.permissionId = p.id and rp.roleId = #{rid}")
+    List<Permission> findByRid(Long rid);
 }
