@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:aop="http://www.springframework.org/schema/aop"
        xmlns:security="http://www.springframework.org/schema/security"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 
        xsi:schemaLocation=" http://www.springframework.org/schema/beans
                             http://www.springframework.org/schema/beans/spring-beans.xsd
                             http://www.springframework.org/schema/security
-                            http://www.springframework.org/schema/security/spring-security.xsd">
+                            http://www.springframework.org/schema/security/spring-security.xsd
+                            http://www.springframework.org/schema/aop
+                            http://www.springframework.org/schema/aop/spring-aop.xsd
+">
 
     <!-- 不拦截静态资源 -->
     <security:http pattern="/css/**" security="none"/>
@@ -21,9 +25,9 @@
         auto-config="使用自带的页面"
         use-expressions="是否使用spel表达式"，如果使用表达式：hasRole('ROLE_USER')
     -->
-    <security:http auto-config="true" use-expressions="false">
+    <security:http auto-config="true" use-expressions="true">
         <!-- 配置拦截的请求地址，任何请求地址都必须有ROLE_USER的权限 -->
-        <security:intercept-url pattern="/**" access="ROLE_USER"/>
+        <security:intercept-url pattern="/**" access="hasRole('ROLE_USER')"/>
         <!-- 配置具体的页面跳转 -->
         <security:form-login login-page="/login.jsp"
                              login-processing-url="/login"
@@ -37,6 +41,8 @@
         <security:logout invalidate-session="true" logout-url="/logout" logout-success-url="/login.jsp"/>
 
     </security:http>
+
+    <aop:aspectj-autoproxy proxy-target-class="true"/>
 
     <!-- 在内存中临时提供用户名和密码的数据
        1：页面传递过来的用户名 密码

@@ -3,6 +3,7 @@ package com.wlh.ssm.controller;
 import com.wlh.ssm.domain.Permission;
 import com.wlh.ssm.service.PermissionService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.access.annotation.Secured;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -17,6 +18,7 @@ import java.util.List;
  **/
 @Controller
 @RequestMapping("permission")
+@Secured({"ROLE_ADMIN"})
 public class PermissionController {
 
     @Autowired

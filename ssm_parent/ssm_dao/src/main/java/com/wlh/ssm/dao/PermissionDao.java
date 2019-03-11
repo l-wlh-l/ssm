@@ -22,4 +22,5 @@ public interface PermissionDao {
 
     @Select("select p.* from sys_role_permission rp,sys_permission p where rp.permissionId = p.id and rp.roleId = #{rid}")
     List<Permission> findByRid(Long rid);
+
 }

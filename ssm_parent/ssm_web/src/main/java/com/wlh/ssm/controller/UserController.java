@@ -6,6 +6,7 @@ import com.wlh.ssm.domain.SysUser;
 import com.wlh.ssm.service.RoleService;
 import com.wlh.ssm.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.access.annotation.Secured;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContext;
 import org.springframework.security.core.userdetails.User;
@@ -26,6 +27,7 @@ import java.util.List;
  **/
 @Controller
 @RequestMapping("user")
+@Secured({"ROLE_ADMIN"})
 public class UserController {
 
     @Autowired

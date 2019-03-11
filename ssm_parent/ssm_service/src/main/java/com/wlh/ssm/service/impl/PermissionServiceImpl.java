@@ -34,4 +34,5 @@ public class PermissionServiceImpl implements PermissionService {
     public void save(Permission permission) {
         permissionDao.save(permission);
     }
+
 }

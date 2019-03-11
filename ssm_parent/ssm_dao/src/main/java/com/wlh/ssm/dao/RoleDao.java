@@ -35,4 +35,21 @@ public interface RoleDao {
             )
     })
     List<Role> findByUid(Long uid);
+
+    @Select("select * from sys_role where id = #{id}")
+    @Results({
+            @Result(column = "id",property = "id",id = true),
+            @Result(column = "id",
+                    property = "permissionList",
+                    javaType = List.class,
+                    many = @Many(select = "com.wlh.ssm.dao.PermissionDao.findByRid",fetchType = FetchType.LAZY)
+            )
+    })
+    Role findByRid(Long id);
+
+    @Delete("delete from sys_role_permission where roleId=#{roleId}")
+    void deleteAllPermissionByRoleId(Long roleId);
+
+    @Insert("insert into sys_role_permission(permissionId,roleId) values(#{param1},#{param2})")
+    void addPermissionsToRoleByRoleId(Long permissionId,Long roleId);
 }

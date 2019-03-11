@@ -15,4 +15,8 @@ public interface RoleService {
     String findByRoleName(String roleName);
 
     List<Role> finAll();
+
+    Role findByRoleId(Long id);
+
+    void savePermissionToRole(Long[] ids, Long roleId);
 }

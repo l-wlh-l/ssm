@@ -10,4 +10,5 @@ public interface PermissionService {
     List<Permission> findByPid(Long pid);
 
     void save(Permission permission);
+
 }

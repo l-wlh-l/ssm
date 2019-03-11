@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:context="http://www.springframework.org/schema/context"
-
+       xmlns:security="http://www.springframework.org/schema/security"
 
        xmlns:mvc="http://www.springframework.org/schema/mvc"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -16,6 +16,8 @@
        http://www.springframework.org/schema/mvc
        http://www.springframework.org/schema/mvc/spring-mvc.xsd
 
+       http://www.springframework.org/schema/security
+       http://www.springframework.org/schema/security/spring-security.xsd
 ">
 
 
@@ -34,7 +36,7 @@
     <mvc:resources mapping="/plugins/**" location="/plugins/"/>
     <mvc:resources mapping="/img/**" location="/img/"/>
 
-
+    <security:global-method-security secured-annotations="enabled"/>
     <mvc:annotation-driven/>
 
 </beans>
